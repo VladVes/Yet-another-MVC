@@ -9,6 +9,8 @@ class ProductController extends Controller
 	
 	// что бы отличить экшены от служебных методов к экшенам добаляют приставку action
 	//к примеру actionGet()
+	protected $useLayout = false;
+
 	public function actionIndex()
 	{
 		//экшн по умолчанию! традиционно называют actionIndex
