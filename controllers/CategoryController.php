@@ -7,7 +7,7 @@ class CategoryController extends Controller
 	//get and show description of one or more category
 	public function actionIndex()
 	{
-		echo "INDEX";
+		echo "Controller INDEX";
 	}
 
 

@@ -13,7 +13,7 @@ class ProductController extends Controller
 	{
 		//экшн по умолчанию! традиционно называют actionIndex
 		
-		echo "INDEX";
+		echo "Product INDEX";
 	}
 
 	public function actionCard()
