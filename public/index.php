@@ -10,10 +10,12 @@ require_once("../config/config.php");
 
 spl_autoload_register([new Autoload(), 'uploadClass']);
 
-if (isset($_REQUEST['c']) && isset($_REQUEST['a'])) {
+if (isset($_REQUEST['c'])) {
 	
 	$controllerName = $_REQUEST['c'];
-	$actionName = $_REQUEST['a'];
+	if (isset($_REQUEST['a'])) {
+		$actionName = $_REQUEST['a'];
+	} else $actionName = "";
 
 	$controllerName = sprintf('app\controllers\%sController', ucfirst($controllerName));
 
@@ -30,8 +32,11 @@ if (isset($_REQUEST['c']) && isset($_REQUEST['a'])) {
 	} else die();
 	
 
-	echo $controllerName;
+	//echo $controllerName;
 	$controller = new $controllerName($factory);
+
+
+
 
 	$controller->run($actionName); //вызов метода контроллера
 
