@@ -1,5 +1,0 @@
-RewriteEngine on
-
-RewritedCond %{REQUEST_FILENAME} !-f
-RewritedCond %{REQUEST_FILENAME} !-d
-RewritedRule . index.php

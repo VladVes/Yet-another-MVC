@@ -19,9 +19,7 @@ class RenderFactoryA extends RenderFactory implements IFactory
 			
 			$r = new $renderer();
 			
-
 			//echo "The obj = "; var_dump($r);
-			
 			return $r;
 
 		}else {

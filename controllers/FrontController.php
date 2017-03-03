@@ -1,5 +1,6 @@
 <?php
 namespace app\controllers;
+use app\services\RequestManeger;
 
 class FrontController extends Controller
 {
@@ -12,25 +13,23 @@ class FrontController extends Controller
 	{
 		echo "Front Controller action Index<br>";
 
-		if (isset($_REQUEST['c'])) {
-	
-			$controllerName = $_REQUEST['c'];
-			
-			if (isset($_REQUEST['a'])) {
-			$actionName = $_REQUEST['a'];
-			} else $actionName = "";
+		$rm = new RequestManeger();
 
-			$controllerName = sprintf('app\controllers\%sController', ucfirst($controllerName));
+		$controllerName = $rm->getControllerName();
+		$actionName = $rm->getActionName();
+
+
+		$controllerName = sprintf('app\controllers\%sController', ucfirst($controllerName));
 
 			if(isset($_REQUEST['factory'])) {
 				$f = 'app\services\\' . $_REQUEST['factory'];
 				$factory = new $f($_REQUEST['renderer']);
 			} else die();
 
-		$controller = new $controllerName($factory);
-		$controller->run($actionName); //вызов метода контроллера
+			$controller = new $controllerName($factory);
+			$controller->run($actionName); //вызов метода контроллера
 
-		} else {
+		
 			
 			echo "URLs for testing with FactoryA and Twig renderer:<br>
 				<a href=\"index.php?c=category&id=1&factory=RenderFactoryA&renderer=twig\">Category 1</a><br>
@@ -63,8 +62,7 @@ class FrontController extends Controller
 				<a href=\"index.php?c=product&a=card&id=2&factory=RenderFactoryB&renderer=betta\">Product 2</a><br>
 				<a href=\"index.php?c=product&a=card&id=3&factory=RenderFactoryB&renderer=betta\">Product 3</a><br>
 				<a href=\"index.php?c=product&a=card&id=4&factory=RenderFactoryB&renderer=betta\">Product 4</a><br>";
-			}
-		}
+			
+	}		
 }
-
 ?>
