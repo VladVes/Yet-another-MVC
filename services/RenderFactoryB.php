@@ -11,25 +11,15 @@ class RenderFactoryB extends RenderFactory implements IFactory
 		
 		$renderer = "app\services\Renderer_" . $this->renderer; 
 		
-		//return new $renderer;
-		if(class_exists($renderer){
-			
-			//echo "class exists<br>";
-			//echo "$renderer<br>";
-			
-			$r = new $renderer();
-			
-
-			//echo "The obj = "; var_dump($r);
-			
+		if(class_exists($renderer)) {
+					
+			$r = new $renderer();	
 			return $r;
 
-		}else {
-			//throw new Exeption("Incorrect renderer!");
+		} else {
 			echo "class not found!";
 			return false;
 		} 
-
 	}
 }
 

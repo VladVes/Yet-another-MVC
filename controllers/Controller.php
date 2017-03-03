@@ -14,7 +14,7 @@ abstract class Controller
 	protected $renderer;
 	protected $factory;
 
-	public function __construct(IFactory $fact)
+	public function __construct(IFactory $fact = null)
 	{
 		$this->factory = $fact;
 		
