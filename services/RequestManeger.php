@@ -28,7 +28,7 @@ class RequestManeger
 				$this->actionName = $matches['action'][0];
 				$this->params = array_merge(explode("/", $matches['params'][0]), $_REQUEST); //массив из строки по разделителю /
 
-				break;
+				//break;
 		}
 		
 
