@@ -11,6 +11,7 @@ require_once("../config/config.php");
 
 spl_autoload_register([new Autoload(), 'uploadClass']);
 
+
 (new FrontController())->run();
 
 
