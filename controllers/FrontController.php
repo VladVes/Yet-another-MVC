@@ -18,6 +18,7 @@ class FrontController extends Controller
 		$controllerName = $rm->getControllerName();
 		$actionName = $rm->getActionName();
 
+		echo '<br>------------var_dump($rm)------------<br>';
 		var_dump($rm);
 
 

@@ -34,8 +34,9 @@ class RequestManeger
 	public function parsRequest()
 	{
 		$this->requestString = $_SERVER['REQUEST_URI'];
+		echo '<br>------------var_dump($this->requestString)------------<br>';
 		var_dump($this->requestString);
-		if ($this->requestString) {
+		if (substr(($this->requestString),1)) {
 			foreach ($this->rules as $rule){
 				if (preg_match_all($rule, $this->requestString, $matches)) // preg_match используется для поиска по регуляронму выражению,  помещает в matches все найденные вхождения создавая при этом массив дополненный ассоциативными ключами плейсхолдеров ?P<> в которых будут лежать индексные массивы - т.е. как бы дублируют ключи индекснего массива еще и ассоциативными ключами
 					var_dump($matches);
@@ -44,16 +45,26 @@ class RequestManeger
 
 					$this->actionName = $matches['action'][0];
 
-					$this->params = array_merge(explode("/", $matches['params'][0]), $_REQUEST); /*
-					
+					$this->params = array_merge(explode("/", $matches['params'][0]), $_REQUEST); 
+
+					/*
+					array_merge - объединяет массивы позволяет получать get запросы
+
 					explode - разбивает строку по разделителю, полученные подстроки помещает в массив
 
 				*/
+
+					echo '<br>-----------------var_dump($this->params)------------<br>';
+					var_dump($this->params);
+					echo '<br>-----------------var_dump($_REQUEST)------------<br>';
+					var_dump($_REQUEST);
+
+					
 			} 
 
 				//break;
 		} else {
-			$this->controllerName = DEFAULT_CONTROLLER;
+			$this->controllerName = self::DEFAULT_CONTROLLER;
 		}
 		
 
