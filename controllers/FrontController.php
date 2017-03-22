@@ -18,6 +18,8 @@ class FrontController extends Controller
 		$controllerName = $rm->getControllerName();
 		$actionName = $rm->getActionName();
 
+		var_dump($rm);
+
 
 		$controllerName = sprintf('app\controllers\%sController', ucfirst($controllerName));
 
