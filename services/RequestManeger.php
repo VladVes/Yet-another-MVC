@@ -39,6 +39,7 @@ class RequestManeger
 		if (substr(($this->requestString),1)) {
 			foreach ($this->rules as $rule){
 				if (preg_match_all($rule, $this->requestString, $matches)) // preg_match используется для поиска по регуляронму выражению,  помещает в matches все найденные вхождения создавая при этом массив дополненный ассоциативными ключами плейсхолдеров ?P<> в которых будут лежать индексные массивы - т.е. как бы дублируют ключи индекснего массива еще и ассоциативными ключами
+					echo '<br>------------var_dump($matches)------------<br>';
 					var_dump($matches);
 
 					$this->controllerName = $matches['controller'][0];

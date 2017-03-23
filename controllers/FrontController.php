@@ -4,33 +4,45 @@ use app\services\RequestManeger;
 
 class FrontController extends Controller
 {
+	const DEFAULT_FACTORY = 'RenderFactoryA';
+
 	public function __construct()
 	{
-		echo "Front controller constructed!<br>";
+		//echo "Front controller constructed!<br>";
 	}
 
 	public function actionIndex()
 	{
-		echo "Front Controller action Index<br>";
+		//echo "Front Controller action Index<br>";
 
 		$rm = new RequestManeger();
 
 		$controllerName = $rm->getControllerName();
 		$actionName = $rm->getActionName();
 
-		echo '<br>------------var_dump($rm)------------<br>';
-		var_dump($rm);
+		//echo '<br>------------var_dump($rm)------------<br>';
+		//var_dump($rm);
 
 
 		$controllerName = sprintf('app\controllers\%sController', ucfirst($controllerName));
 
 			if(isset($_REQUEST['factory'])) {
 				$f = 'app\services\\' . $_REQUEST['factory'];
-				$factory = new $f($_REQUEST['renderer']);
-			} else die();
+			} else {
+				$f = 'app\services\\' . self::DEFAULT_FACTORY;
+			}
+			$factory = new $f('alpha');
 
 			$controller = new $controllerName($factory);
+
+			echo '<br>------------var_dump($controller)------------<br>';
+			
+			//var_dump($controller);
+			//exit();
+
 			$controller->run($actionName); //вызов метода контроллера
+
+
 
 		
 			

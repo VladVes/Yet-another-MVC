@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 use app\models\Product;
+use app\services\RequestManeger;
 
 class ProductController extends Controller
 {
@@ -23,9 +24,17 @@ class ProductController extends Controller
 	public function actionCard()
 	{
 		//получение данных о товаре - обращение к модели
-		//echo "CARD";
+		
+		/*echo "Product actionCard!";
+		exit(); */
 
-		$id = $_GET['id'];
+		//$id = $_GET['id'];
+
+		$id = (new RequestManeger())->getParams()[0];
+
+		//echo "id is {$id}";
+		//exit();
+		
 		$this->render('card', ['model' => Product::getCardById($id)]);
 
 		//var_dump($model);
