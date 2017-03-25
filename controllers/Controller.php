@@ -14,7 +14,7 @@ abstract class Controller
 	protected $renderer;
 	protected $factory;
 
-	public function __construct(IFactory $fact)
+	public function __construct(IFactory $fact = null)
 	{
 		$this->factory = $fact;
 		
@@ -31,7 +31,6 @@ abstract class Controller
 
 	public function render($template, $params = [])
 	{
-		
 
 		$this->renderer = $this->factory->create();
 		

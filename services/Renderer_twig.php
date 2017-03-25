@@ -2,7 +2,7 @@
 
 namespace app\services;
 use app\interfaces\IRenderer;
-use Twig_loader_Filesystem;
+use \Twig_loader_Filesystem;
 
 class Renderer_twig implements IRenderer
 {
@@ -19,7 +19,7 @@ class Renderer_twig implements IRenderer
 
 	public function render($template, $params = [])
 	{
-		$template = $this->templater->loadTemplate($template);
+		$template = $this->templater->loadTemplate($template . ".html");
 		return $template->render($params);
 	}
 }

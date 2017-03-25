@@ -11,7 +11,7 @@ trait TSingltone
 
     public static function getInstance(){
         if(is_null(static::$instance)){
-            static::$instance = new Db;
+            static::$instance = new static;
         }
         return static::$instance;
     }
