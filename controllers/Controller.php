@@ -40,6 +40,11 @@ abstract class Controller
 
 		$this->renderer->render($template, $params);
 	}
+
+	public function redirect($url)
+	{
+		header("Location: /{$url}");
+	}
 }
 
 
