@@ -25,8 +25,10 @@ abstract class Controller
 	{
 
 		$this->action = $action?:$this->defaulAction;
-		$method = 'action' . ucfirst($this->action); //получаем имя метода
-		$this->$method(); //запускаем полученный метод
+		$action = 'action' . ucfirst($this->action); //получаем имя метода
+		$this->beforeAciton();
+		$this->$action(); //запускаем полученный метод
+		$this->afterAciton();
 	}
 
 	public function render($template, $params = [])
@@ -39,6 +41,16 @@ abstract class Controller
 		//var_dump($this->factory->create());
 
 		$this->renderer->render($template, $params);
+	}
+
+	public function beforeAciton()
+	{
+
+	}
+
+	public function afterAction()
+	{
+
 	}
 
 	public function redirect($url)
