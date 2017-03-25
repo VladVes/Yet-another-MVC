@@ -35,17 +35,13 @@ class FrontController extends Controller
 
 			$controller = new $controllerName($factory);
 
-			echo '<br>------------var_dump($controller)------------<br>';
+			//echo '<br>------------var_dump($controller)------------<br>';
 			
 			//var_dump($controller);
 			//exit();
 
 			$controller->run($actionName); //вызов метода контроллера
 
-
-
-		
-			
 			echo "URLs for testing with FactoryA and Twig renderer:<br>
 				<a href=\"index.php?c=category&id=1&factory=RenderFactoryA&renderer=twig\">Category 1</a><br>
 				
