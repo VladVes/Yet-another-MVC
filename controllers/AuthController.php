@@ -1,7 +1,7 @@
 <?php
 namespace app\controllers;
 
-class AuthController extends Controller;
+class AuthController extends Controller
 {
 	public function actionIndex()
 	{
@@ -11,6 +11,7 @@ class AuthController extends Controller;
 				$this->redirect("product");
 			}
 		}
+		
 		$this->render("login");
 	}
 }

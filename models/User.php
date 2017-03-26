@@ -13,5 +13,10 @@ class User
 	{
 		return $this->id;
 	}
+
+	public function getCurrent()
+	{
+		
+	}
 }
 ?>

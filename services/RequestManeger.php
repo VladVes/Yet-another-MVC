@@ -34,13 +34,13 @@ class RequestManeger
 	public function parsRequest()
 	{
 		$this->requestString = $_SERVER['REQUEST_URI'];
-		echo '<br>------------var_dump($this->requestString)------------<br>';
-		var_dump($this->requestString);
+		//echo '<br>------------var_dump($this->requestString)------------<br>';
+		//var_dump($this->requestString);
 		if (substr(($this->requestString),1)) {
 			foreach ($this->rules as $rule){
 				if (preg_match_all($rule, $this->requestString, $matches)) // preg_match используется для поиска по регуляронму выражению,  помещает в matches все найденные вхождения создавая при этом массив дополненный ассоциативными ключами плейсхолдеров ?P<> в которых будут лежать индексные массивы - т.е. как бы дублируют ключи индекснего массива еще и ассоциативными ключами
-					echo '<br>------------var_dump($matches)------------<br>';
-					var_dump($matches);
+					//echo '<br>------------var_dump($matches)------------<br>';
+					//var_dump($matches);
 
 					$this->controllerName = $matches['controller'][0];
 
@@ -55,10 +55,10 @@ class RequestManeger
 
 				*/
 
-					echo '<br>-----------------var_dump($this->params)------------<br>';
+					/*echo '<br>-----------------var_dump($this->params)------------<br>';
 					var_dump($this->params);
 					echo '<br>-----------------var_dump($_REQUEST)------------<br>';
-					var_dump($_REQUEST);
+					var_dump($_REQUEST); */
 
 					
 			} 

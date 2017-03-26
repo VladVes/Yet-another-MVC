@@ -35,11 +35,6 @@ abstract class Controller
 	{
 
 		$this->renderer = $this->factory->create();
-		
-		//var_dump($this->renderer);
-
-		//var_dump($this->factory->create());
-
 		$this->renderer->render($template, $params);
 	}
 
