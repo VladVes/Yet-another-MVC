@@ -28,7 +28,7 @@ abstract class Controller
 		$action = 'action' . ucfirst($this->action); //получаем имя метода
 		$this->beforeAciton();
 		$this->$action(); //запускаем полученный метод
-		$this->afterAciton();
+		$this->afterAction();
 	}
 
 	public function render($template, $params = [])

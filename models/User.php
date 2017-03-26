@@ -16,7 +16,7 @@ class User
 
 	public function getCurrent()
 	{
-		
+		return false;
 	}
 }
 ?>

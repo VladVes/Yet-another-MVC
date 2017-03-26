@@ -1,5 +1,6 @@
 <?php
 namespace app\controllers;
+use app\services\Auth;
 
 class AuthController extends Controller
 {
@@ -11,7 +12,7 @@ class AuthController extends Controller
 				$this->redirect("product");
 			}
 		}
-		
+
 		$this->render("login");
 	}
 }
