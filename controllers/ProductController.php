@@ -16,8 +16,9 @@ class ProductController extends Controller
 	{
 		//экшн по умолчанию! традиционно называют actionIndex
 		
-		echo "Product INDEX";
+		//echo "Product INDEX";
 		$this->render('index');
+		//$this->actionCard();
 		
 	}
 

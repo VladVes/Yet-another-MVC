@@ -1,5 +1,6 @@
 <?php
 namespace app\models;
+use app\services\Db;
 
 class UserRep
 {
@@ -14,15 +15,15 @@ class UserRep
 	public function getByLoginPass($login, $pass)
 	{
 		return $this->conn->fetchObject(
-			sptintf(
-				"SELECT u.* FROM users u WHERE login = '%s' AND password = '%s'", $login, md5($pass)), [], $this->nestedClass
+			sprintf(
+				"SELECT u.* FROM user u WHERE login = '%s' AND password = '%s'", $login, md5($pass)), [], $this->nestedClass
 			);
 	}
 
 	public function getById($id)
 	{
 		return $this->conn->fetchObject(
-			"SELECT u.* FROM users u WHERE u.id = ?", [$id], $this->nestedClass
+			"SELECT u.* FROM user u WHERE u.id = ?", [$id], $this->nestedClass
 			);
 	}
 }

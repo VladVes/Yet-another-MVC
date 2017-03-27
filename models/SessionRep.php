@@ -11,7 +11,7 @@ class SessionRep {
 		$this->conn = Db::getInstance();
 	}
 
-	public functino clearSession()
+	public function clearSession()
 	{
 		return Db::getInstansce()->execute(
 			sprintf("DELETE FROM session WHERE last_update < %s", date('Y-m-d H:i:s', time() - 60 * 20))
@@ -20,10 +20,19 @@ class SessionRep {
 
 	public function createNew($userId, $sid, $rimelast)
 	{
-		return Dd::getInstance()->execute(
+		return Db::getInstance()->execute(
 			"INSERT INTO sessions(user_id, sid, last_update) VALUES (?, ?, ?)", [$userId, $sid, $timeLast]
 		);
 	}
+
+	public function updateLastTime($sid, $time = null)
+    {
+        if (is_null($time)) {
+            $time = date('Y-m-d H:i:s');
+        }
+        return Db::getInstance()->execute(
+            "UPDATE sessions SET last_update = '{$time}' WHERE sid = '{$sid}'");
+    }
 
 	public function getUidBySid($sid)
 	{

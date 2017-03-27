@@ -43,8 +43,12 @@ class FrontController extends Controller
 
 	protected function checkUser(){
 		session_start();
+		//var_dump($_SESSION);
+		//exit();
+
 			if ($this->controllerName != 'auth') {
 				$user = (new User())->getCurrent();
+				var_dump($user);
 				if (!$user) {
 					$this->redirect('auth');
 			}
