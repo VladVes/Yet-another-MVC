@@ -8,13 +8,17 @@ class Auth
 {
 	protected $sessionKey = 'sid';
 
-	public function login($login, $password)
+	public function login($login, $password, $rem)
 	{
 		$user = (new UserRep())->getByLoginPass($login, $password);
 		if (!$user) {
 			return false;
-		} 
-		return $this->openSession($user);
+		} elseif ($this->openSession($user)) {
+		 	if ($rem) {
+		 		setcookie("token", $_SESSION[$this->sessionKey], time() + 3600 * 24 * 7 );
+		 	}
+		 	return true;
+		 } 
 	}
 
 	public function getSessionId() 

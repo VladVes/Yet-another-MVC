@@ -8,8 +8,10 @@ class AuthController extends Controller
 	{
 		if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['login']))
 		{
-			if((new Auth())->login($_POST['login'], $_POST['pass'])) {
-				$this->redirect("product");
+			$rem = (isset($_POST['rem']))? true : false;
+						
+			if((new Auth())->login($_POST['login'], $_POST['pass'], $rem)) {
+				$this->redirect('');
 			}
 		}
 
