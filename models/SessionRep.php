@@ -18,7 +18,7 @@ class SessionRep {
 		);
 	}
 
-	public function createNew($userId, $sid, $timelast)
+	public function createNew($userId, $sid, $timeLast)
 	{
 		return Db::getInstance()->execute(
 			"INSERT INTO sessions(user_id, sid, last_update) VALUES (?, ?, ?)", [$userId, $sid, $timeLast]

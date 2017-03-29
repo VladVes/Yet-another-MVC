@@ -42,7 +42,7 @@ class FrontController extends Controller
 	}
 
 	protected function checkUser(){
-		session_start();
+		
 		if ($this->controllerName != 'auth') {
 			$user = (new User())->getCurrent();
 			if (!$user) {

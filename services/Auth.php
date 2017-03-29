@@ -6,6 +6,7 @@ use app\models\User;
 
 class Auth
 {
+	public static $isLogged = false;
 	protected $sessionKey = 'sid';
 
 	public function login($login, $password, $rem)
@@ -14,8 +15,9 @@ class Auth
 		if (!$user) {
 			return false;
 		} elseif ($this->openSession($user)) {
+			self::$isLogged = true;
 		 	if ($rem) {
-		 		setcookie("token", $_SESSION[$this->sessionKey], time() + 3600 * 24 * 7 );
+		 		(new Cookie())->createCookie("token", $_SESSION[$this->sessionKey], time() + 3600 * 24 * 7 );
 		 	}
 		 	return true;
 		 } 
@@ -23,12 +25,33 @@ class Auth
 
 	public function getSessionId() 
 	{
-		$sid = $_SESSION[$this->sessionKey];
+		if (isset($_COOKIE['token'])) {
+			$sid = $_COOKIE['token'];
+		} elseif (isset($_SESSION[$this->sessionKey])) {
+			$sid = $_SESSION[$this->sessionKey];
+		} else {
+			$sid = null;
+		}
+
 		if(!is_null($sid)){
 			(new SessionRep())->updateLastTime($sid);
-		}
+		} 
 		return $sid;
+		
 	}
+
+	public function unsetCookie()
+	{
+		(new Cookie())->clearCookie('token', $_SESSION[$this->sessionKey]);
+	}
+
+
+	public function closeSession()
+		{
+			unset($_SESSION[$this->sessionKey]);
+			session_destroy();
+		}
+
 
 	protected function openSession(User $user) {
 		$model = new SessionRep();

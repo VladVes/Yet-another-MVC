@@ -17,6 +17,7 @@ class User
 
 	public function getCurrent()
 	{
+		session_start();
 		$userId = $this->getUserId();
 		if($userId) {
 			return (new UserRep())->getById($userId);
@@ -24,7 +25,7 @@ class User
 		return null;
 	}
 
-	protected function getUserId()
+	public function getUserId()
 	{
 		$sid = (new Auth())->getSessionId();
 		if(!is_null($sid)){
