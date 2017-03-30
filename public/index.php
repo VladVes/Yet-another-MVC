@@ -48,7 +48,8 @@ if (isset($_REQUEST['c']) && isset($_REQUEST['a'])) {
 		<br></p>";
 
 	echo "URLs for testing with FactoryA and Twig renderer:<br>
-		<a href=\"index.php?c=category&id=1&factory=RenderFactoryA&renderer=twig\">Category 1</a><br>";
+		<a href=\"index.php?c=category&id=1&factory=RenderFactoryA&renderer=twig\">Category 1</a><br>
+		<a href=\"index.php?c=product&id=1&factory=RenderFactoryA&renderer=twig\">product 1</a><br>";
 
 
 	echo "URLs for testing with FactoryA and default renderer:<br>
