@@ -13,8 +13,17 @@ class SessionRep {
 
 	public function clearSession()
 	{
-		return Db::getInstansce()->execute(
-			sprintf("DELETE FROM session WHERE last_update < %s", date('Y-m-d H:i:s', time() - 60 * 20))
+		/*echo sprintf("DELETE FROM sessions WHERE last_update < '%s'", date('Y-m-d H:i:s', time())); */
+		return Db::getInstance()->execute(
+            sprintf("DELETE FROM sessions WHERE last_update < '%s'", date('Y-m-d H:i:s', time() - 60)) 
+		);
+	}
+
+	public function deleteSession($sid)
+	{
+		/*echo sprintf("DELETE FROM sessions WHERE last_update < '%s'", date('Y-m-d H:i:s', time())); */
+		return Db::getInstance()->execute(
+            sprintf("DELETE FROM sessions WHERE sid = '%s'", $sid) 
 		);
 	}
 

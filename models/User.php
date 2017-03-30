@@ -18,6 +18,7 @@ class User
 	public function getCurrent()
 	{
 		session_start();
+		
 		$userId = $this->getUserId();
 		if($userId) {
 			return (new UserRep())->getById($userId);

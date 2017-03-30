@@ -57,7 +57,15 @@ class Db
 
     public function fetchOne($sql, $params = [])
     {
-        return $this->fetchAll($sql, $params)[0];
+        //return $this->fetchAll($sql, $params)[0];
+
+        $res = $this->fetchAll($sql, $params);
+        
+        if (isset($res[0])) {
+            return $res[0];
+        } else {
+        return false;
+        }
     }
 
     public function fetchObject($sql, $params = [], $class)

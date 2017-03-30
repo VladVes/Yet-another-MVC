@@ -34,7 +34,10 @@ class Auth
 		}
 
 		if(!is_null($sid)){
-			(new SessionRep())->updateLastTime($sid);
+			$sr = new SessionRep();
+			$sr->clearSession();
+			$sr->updateLastTime($sid);
+
 		} 
 		return $sid;
 		
@@ -48,6 +51,7 @@ class Auth
 
 	public function closeSession()
 		{
+			(new SessionRep())->deleteSession($_SESSION[$this->sessionKey]);
 			unset($_SESSION[$this->sessionKey]);
 			session_destroy();
 		}
