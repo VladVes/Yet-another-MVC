@@ -2,7 +2,7 @@
 
 namespace app\services;
 use app\interfaces\IRenderer;
-use Twig_loader_Filesystem;
+use \Twig_loader_Filesystem;
 
 class Renderer_twig implements IRenderer
 {
