@@ -31,7 +31,6 @@ abstract class Controller
 
 	public function render($template, $params = [])
 	{
-		
 
 		$this->renderer = $this->factory->create();
 		

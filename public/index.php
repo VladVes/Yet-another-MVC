@@ -54,12 +54,15 @@ if (isset($_REQUEST['c'])) {
 
 	echo "URLs for testing with FactoryA and Twig renderer:<br>
 		<a href=\"index.php?c=category&id=1&factory=RenderFactoryA&renderer=twig\">Category 1</a><br>
+		
 		<a href=\"index.php?c=product&id=1&factory=RenderFactoryA&renderer=twig\">product 1</a><br>";
 
 
 	echo "URLs for testing with FactoryA and default renderer:<br>
 		<a href=\"index.php?c=category&a=showdesc&id=1&factory=RenderFactoryA&renderer=default\">Category 1</a><br>
+
 		<a href=\"index.php?c=category&a=showdesc&id=2&factory=RenderFactoryA&renderer=default\">Category 2</a><br>
+
 		<a href=\"index.php?c=product&a=card&id=2&factory=RenderFactoryA&renderer=default\">Product 1</a><br>
 		<a href=\"index.php?c=product&a=card&id=2&factory=RenderFactoryA&renderer=default\">Product 2</a><br>
 		<a href=\"index.php?c=product&a=card&id=3&factory=RenderFactoryA&renderer=default\">Product 3</a><br>
