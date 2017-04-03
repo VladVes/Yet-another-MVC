@@ -9,16 +9,25 @@ class Db
 {
     protected $conn;
     
-    /*protected $dbConfig = [
-    // ../config/config.php
+    protected $dbConfig = [
         'driver' => DRIVER,
         'host' => HOST,
         'login' => LOGIN,
         'password' => PASSWD,
         'database' => DATABASE
-    ]; */
+    ]; 
 
     //use TSingltone;
+    
+    public __construct($driver, $host, $login, $password, $database)
+    {
+        $dbconfig['driver'] = $driver;
+        $dbconfig['host'] = $host;
+        $dbconfig['login'] = $login;
+        $dbconfig['password'] = $password;
+        $dbconfig['database'] = $database;
+    }
+
 
     public function getConnection()
     {

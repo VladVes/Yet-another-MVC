@@ -21,6 +21,9 @@ return [
 		'auth' => [
 			'class' => "app\\services\\Auth",
 		],
+		'mainController' => [
+			'class' => 'app\\controllers\\FrontController'
+		],
 		'request' => [
 			'class' => "app\\services\\RequestManager",
 		],
