@@ -1,5 +1,5 @@
 <?php
-namespace app\models;
+/* namespace app\models;
 use app\controllers\FrontController;
 use app\services\Autoload;
 use app\services\RenderFactoryA;
@@ -12,7 +12,11 @@ require_once("../config/config.php");
 spl_autoload_register([new Autoload(), 'uploadClass']);
 
 
-(new FrontController())->run();
+(new FrontController())->run();  */ // - Old version
+
+include_once "../base/Application.php";
+
+(new \app\base\Application())->run();
 
 
 
