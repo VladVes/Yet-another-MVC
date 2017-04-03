@@ -26,6 +26,7 @@ return [
 		],
 		'request' => [
 			'class' => "app\\services\\RequestManager",
+			'rules' => ['#(?P<controller>\w+)[/]?(?P<action>\w+)?[/]?(?P<params>.*)#u']
 		],
 		'db' => [
 			'class' => "app\\services\\Db",

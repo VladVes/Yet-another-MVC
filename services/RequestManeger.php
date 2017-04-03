@@ -9,8 +9,8 @@ class RequestManeger
 	protected $params;
 	const DEFAULT_CONTROLLER = 'product';
 
-	protected $rules = [
-		'#(?P<controller>\w+)[/]?(?P<action>\w+)?[/]?(?P<params>.*)#u' //регулярка с плейсхолдерами
+	protected $rules = [];
+		 //регулярка с плейсхолдерами
 		
 		/*
 		# - ограничение регулярки - #u
@@ -26,8 +26,9 @@ class RequestManeger
 		// /controller/action/parame1/param2 ../paramN
 	];
 
-	public function __construct()
+	public function __construct($rules)
 	{
+		$this->rules = $rules;
 		$this->parsRequest();
 	}
 

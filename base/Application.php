@@ -34,8 +34,8 @@ class Application
 
 	public function createComponent($name) //по хорошему создание компонентов нужно выносить в отдельный класс
 	{
-		if(isset($this->config[$name])) {
-			$params = $this->config[$name];
+		if(isset($this->config['components'][$name])) {
+			$params = $this->config['components'][$name];
 			$class = $params['class'];
 			unset($params['class']); //оставляем только нужные нам переменные - все кроме имя класса т.е. параметры 
 			
