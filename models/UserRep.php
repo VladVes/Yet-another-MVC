@@ -1,6 +1,6 @@
 <?php
 namespace app\models;
-use app\services\Db;
+use app\base\Application;
 
 class UserRep
 {
@@ -9,7 +9,7 @@ class UserRep
 
 	public function __construct()
 	{
-		$this->conn = Db::getInstance();
+		$this->conn = Application::call()->db;
 	}
 
 	public function getByLoginPass($login, $pass)

@@ -2,6 +2,7 @@
 
 namespace app\models;
 use app\services\Db;
+use app\base\Application;
 
 abstract class Model
 {
@@ -11,8 +12,7 @@ abstract class Model
 		$table = static::getTableName();
 
 		$sql = "SELECT * FROM {$table} WHERE id = :id";
-		//$res = Db::getInstance()->fetchOne($sql, [":id" => $id]);
-		$res = Db::getInstance()->fetchObject($sql, [":id" => $id], get_called_class());
+		$res = Application::call()->db->fetchObject($sql, [":id" => $id], get_called_class());
 		return $res;
 	}
 
@@ -20,14 +20,14 @@ abstract class Model
 		$table = static::getTableName();
 
 		$sql = "SELECT * FROM {$table} WHERE id = :id";
-		$res = Db::getInstance()->fetchOne($sql, [":id" => $id]);
+		$res = Application::call()->db->fetchOne($sql, [":id" => $id]);
 		return $res;
 	}
 
 	public static function getAll(){
 		$table = static::getTableName();
 		$sql = "SELECT * FROM {$table}";
-		return Db::getInstance()->fetchAll($sql);
+		return Application::call()->db->fetchAll($sql);
 	}
 
 

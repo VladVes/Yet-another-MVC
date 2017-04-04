@@ -1,8 +1,8 @@
 <?php
 
 namespace app\controllers;
+use app\base\Application;
 use app\models\Product;
-use app\services\RequestManeger;
 
 class ProductController extends Controller
 {
@@ -31,7 +31,7 @@ class ProductController extends Controller
 
 		//$id = $_GET['id'];
 
-		$id = (new RequestManeger())->getParams()[0];
+		$id = Application::call()->request->getParams()[0];
 
 		//echo "id is {$id}";
 		//exit();

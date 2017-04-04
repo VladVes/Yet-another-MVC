@@ -1,7 +1,7 @@
 <?php
 namespace app\services;
 
-class RequestManeger
+class RequestManager
 {
 	protected $requestString;
 	protected $controllerName;
@@ -24,8 +24,7 @@ class RequestManeger
 
 
 		// /controller/action/parame1/param2 ../paramN
-	];
-
+	
 	public function __construct($rules)
 	{
 		$this->rules = $rules;

@@ -1,8 +1,6 @@
 <?php
 namespace app\controllers;
-use app\services\Auth;
-use app\services\Logout;
-use app\models\User;
+use app\base\Application;
 
 class AuthController extends Controller
 {
@@ -11,7 +9,7 @@ class AuthController extends Controller
 		session_start();
 		if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['logout'])) {
 		
-			$auth = new Auth();
+			$auth = Application::call()->auth;
 			$auth->unsetCookie();
 			$auth->closeSession();
 			$this->redirect('');
@@ -22,12 +20,12 @@ class AuthController extends Controller
 		{
 			$rem = (isset($_POST['rem']))? true : false;
 						
-			if((new Auth())->login($_POST['login'], $_POST['pass'], $rem)) {
+			if(Application::call()->auth->login($_POST['login'], $_POST['pass'], $rem)) {
 				$this->redirect('');
 			}
 		}
 
-		if ((new User())->getUserId() != null) {
+		if (Application::call()->user->getUserId() != null) {
 			$this->render('logout');
 		} else {
 			$this->render("login");

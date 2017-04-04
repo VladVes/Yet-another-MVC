@@ -1,8 +1,7 @@
 <?php
 namespace app\services;
-use app\models\UserRep;
-use app\models\SessionRep;
 use app\models\User;
+use app\base\Application;
 
 class Auth
 {
@@ -11,13 +10,13 @@ class Auth
 
 	public function login($login, $password, $rem)
 	{
-		$user = (new UserRep())->getByLoginPass($login, $password);
+		$user = Application::call()->userrep->getByLoginPass($login, $password);
 		if (!$user) {
 			return false;
 		} elseif ($this->openSession($user)) {
 			self::$isLogged = true;
 		 	if ($rem) {
-		 		(new Cookie())->createCookie("token", $_SESSION[$this->sessionKey], time() + 3600 * 24 * 7 );
+		 		Application::call()->cookie->createCookie("token", $_SESSION[$this->sessionKey], time() + 3600 * 24 * 7 );
 		 	}
 		 	return true;
 		 } 
@@ -34,31 +33,30 @@ class Auth
 		}
 
 		if(!is_null($sid)){
-			$sr = new SessionRep();
+			$sr = Application::call()->sessionrep;
 			$sr->clearSession();
 			$sr->updateLastTime($sid);
 
 		} 
 		return $sid;
-		
 	}
 
 	public function unsetCookie()
 	{
-		(new Cookie())->clearCookie('token', $_SESSION[$this->sessionKey]);
+		Application::call()->cookie->clearCookie('token', $_SESSION[$this->sessionKey]);
 	}
 
 
 	public function closeSession()
 		{
-			(new SessionRep())->deleteSession($_SESSION[$this->sessionKey]);
+			Application::call()->sessionrep->deleteSession($_SESSION[$this->sessionKey]);
 			unset($_SESSION[$this->sessionKey]);
 			session_destroy();
 		}
 
 
 	protected function openSession(User $user) {
-		$model = new SessionRep();
+		$model = Application::call()->sessionrep;
 		$sid = $this->generateStr();
 		$model->createNew($user->getId(), $sid, date("Y-m-d H:i:s"));
 		$_SESSION[$this->sessionKey] = $sid;

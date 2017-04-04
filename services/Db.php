@@ -19,7 +19,7 @@ class Db
 
     //use TSingltone;
     
-    public __construct($driver, $host, $login, $password, $database)
+    public function __construct($driver, $host, $login, $password, $database)
     {
         $dbconfig['driver'] = $driver;
         $dbconfig['host'] = $host;

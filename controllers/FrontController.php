@@ -1,6 +1,7 @@
 <?php
 namespace app\controllers;
 use app\services\RequestManeger;
+use app\base\Application;
 use app\models\User;
 
 class FrontController extends Controller
@@ -17,10 +18,12 @@ class FrontController extends Controller
 
 	public function actionIndex()
 	{
-		$rm = new RequestManeger();
+		//$rm = new RequestManeger();
+		echo "MARK fronController->actionIndex()";
 
-		$this->controllerName = $rm->getControllerName();
-		$this->actionName = $rm->getActionName();
+
+		$this->controllerName = Application::call()->request->getControllerName();
+		$this->actionName = Application::call()->request->getActionName();
 
 		$this->checkUser();
 	
@@ -44,7 +47,7 @@ class FrontController extends Controller
 	protected function checkUser(){
 		
 		if ($this->controllerName != 'auth') {
-			$user = (new User())->getCurrent();
+			$user = Application::call()->user->getCurrent();
 			if (!$user) {
 				$this->redirect('auth');
 			}

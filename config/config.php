@@ -46,6 +46,15 @@ return [
 		],
 		'renderer' => [
 			'class' => "app\\services\\Renderer_apha"
+		],
+		'userrep' => [
+			'class' => "app\\models\\UserRep"
+		],
+		'sessionrep' => [
+			'class' => "app\\models\\SessionRep"
+		],
+		'cookie' => [
+			'class' => "app\\services\\Cookie"
 		]
 	]
 ];

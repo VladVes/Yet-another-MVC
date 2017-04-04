@@ -1,6 +1,6 @@
 <?php
 namespace app\models;
-use app\services\Auth;
+use app\base\Application;
 
 class User
 {
@@ -21,16 +21,16 @@ class User
 		
 		$userId = $this->getUserId();
 		if($userId) {
-			return (new UserRep())->getById($userId);
+			return Application::call()->userrep->getById($userId);
 		}
 		return null;
 	}
 
 	public function getUserId()
 	{
-		$sid = (new Auth())->getSessionId();
+		$sid = Application::call()->auth->getSessionId();
 		if(!is_null($sid)){
-			return (new SessionRep())->getUidBySid($sid);
+			return Application::call()->sessionrep->getUidBySid($sid);
 		}
 		return null;
 	}
