@@ -1,9 +1,11 @@
 <?php
-use app\base\Application;
+//use app\base\Application;
 
 require_once "../base/Application.php";
+//require_once "../services/ClassAutoLoad.php";
 
-Application::call()->run();
+//ClassAutoLoad::autoLoad('app\base\Application');
 
+app\base\Application::call()->run();
 
 ?>
