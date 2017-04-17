@@ -23,16 +23,14 @@ class Log
 			self::$bytes = fwrite($res, self::prepareMessage($mess));
 			fclose($res);
 		} else return false;
-		
-
 	}
 
 	public function getLogFileSize()
 	{
 		return $this->$bytes;
 	}
-
-
 }
+
+
 
 ?>

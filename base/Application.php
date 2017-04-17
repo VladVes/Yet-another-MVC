@@ -37,10 +37,8 @@ var_dump($this->config);
 		Log::writeLog("Done!");
 
 		$this->main_controller->run();
-
 		
 		Log::writeLog("Application terminate");
-		
 	}
 
 	protected function autoload()
