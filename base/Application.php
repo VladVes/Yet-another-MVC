@@ -55,7 +55,7 @@ var_dump($this->config);
 			unset($params['class']);
 
 			$reflection = new \ReflectionClass($class);
-			$newComponent = $reflection->newInstanceArgs([$params]);
+			$newComponent = $reflection->newInstanceArgs($params);
 
 			Log::writeLog("$name componet has been created successfully");
 			return $newComponent;
