@@ -20,25 +20,24 @@ class Application
 	public function run()
 	{
 
-echo "running Application...";
+		echo "running Application...";
+		
 		$this->autoload();
 
 		$this->storage = new \app\services\Container();
 
-		Log::writeLog("running Application...");
+		Log::write("running Application...");
 
 		if(file_exists($this->configName)) {
 			$this->config = require_once $this->configName;
-echo "<br>";
-var_dump($this->config);
-			Log::writeLog("{$this->configName} included");
-		} else Log::writeLog("ERR: {$this->configName} file not found");
+			Log::write("{$this->configName} included");
+		} else Log::write("ERR: {$this->configName} file not found");
 
-		Log::writeLog("Done!");
+		Log::write("Done!");
 
 		$this->main_controller->run();
 		
-		Log::writeLog("Application terminate");
+		Log::write("Application terminate");
 	}
 
 	protected function autoload()
@@ -57,11 +56,11 @@ var_dump($this->config);
 			$reflection = new \ReflectionClass($class);
 			$newComponent = $reflection->newInstanceArgs($params);
 
-			Log::writeLog("$name componet has been created successfully");
+			Log::write("$name componet has been created successfully");
 			return $newComponent;
 
 		} else {
-			Log::writeLog('ERR: can\'t create undefined component "{$name}" check configuration');
+			Log::write('ERR: can\'t create undefined component "{$name}" check configuration');
 		}
 	}
 

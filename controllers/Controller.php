@@ -16,10 +16,10 @@ abstract class Controller
 		echo "<br> controller running controller!";
 		if(!is_null($action)) {
 			$actionMethod = 'action' . ucfirst($action);
-			Log::writeLog('running {$actionMethod}');
+			Log::write('running {$actionMethod}');
 		} else {
 			$actionMethod = 'action'. ucfirst($this->defaultAction);
-			Log::writeLog('running default Action');
+			Log::write('running default Action');
 		}
 		$this->$actionMethod();
 	}

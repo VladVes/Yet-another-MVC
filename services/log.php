@@ -13,7 +13,7 @@ class Log
 		return $m;
 	}
 
-	static public function writeLog($mess)
+	static public function write($mess)
 	{
 		$fName = self::$fileName;
 		$fullName = "../Log/{$fName}.log";
