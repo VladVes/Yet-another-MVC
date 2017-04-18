@@ -29,7 +29,7 @@ class RequestManager
 		$this->action = $matches['action'][0];
 		$this->params = array_merge(explode("/", $matches['params'][0]), $_REQUEST);
 		
-		Log::write('request contains: controller - ' . $this->controller . '; action: '  . $this->controller . '; parametre: ' . $this->controller . serialize($this->params));
+		Log::write('request contains: controller - ' . $this->controller . '; action: '  . $this->action . '; parametre: ' . serialize($this->params));
 
 	}
 
