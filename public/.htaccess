@@ -1,19 +1,20 @@
 RewriteEngine on
 RewriteRule .htaccess - [F]
+RewriteRule index\w+\.php - [F]
+RewriteBase /test/
 
-RewriteBase /
-RewriteCond %{REQUEST_URI} =""
-RewriteRule ^(.)$ index.php1/defaultController/defaultAction/param1 [QSA,L]
+# RewriteCond %{REQUEST_URI} ^\s$
+# RewriteRule ^(.*)$ index1.php [QSA,L]
 
-RewriteCond %{HTTP_USER_AGENT} ^Mozzila.*
-RewriteRule ^(.*)$ index1.php [QSA,L]
-
-RewriteCond %{HTTP_USER_AGENT} ^Google.*
-RewriteRule ^(.*)$ index2.php [QSA,L]
+# RewriteCond %{HTTP_USER_AGENT} ^Mozzila.*
+# RewriteRule ^(.*)$ index1.php [QSA,L]
+# RewriteCond %{HTTP_USER_AGENT} ^WebKit.*
+# RewriteRule ^(.*)$ index2.php [QSA,L]
 
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php [QSA,L]
 
-RewriteRule regex.php - [F]
+
+#RewriteLog "/usr/local/var/apache/logs/rewrite.log"

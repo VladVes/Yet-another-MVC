@@ -88,3 +88,687 @@
 2017-04-18 17:51:00 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
 2017-04-18 17:51:00 request_manager componet has been created successfully
 2017-04-18 17:51:00 Application terminate
+2017-04-19 17:50:06 running Application...
+2017-04-19 17:50:06 ../config/main.cfg included
+2017-04-19 17:50:06 Done!
+2017-04-19 17:50:06 main_controller componet has been created successfully
+2017-04-19 17:50:06 running default Action
+2017-04-19 17:50:06 /2 request recived
+2017-04-19 17:50:06 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 17:50:06 request_manager componet has been created successfully
+2017-04-19 17:50:06 Application terminate
+2017-04-19 17:50:07 running Application...
+2017-04-19 17:50:07 ../config/main.cfg included
+2017-04-19 17:50:07 Done!
+2017-04-19 17:50:07 main_controller componet has been created successfully
+2017-04-19 17:50:07 running default Action
+2017-04-19 17:50:07 /favicon.ico request recived
+2017-04-19 17:50:07 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 17:50:07 request_manager componet has been created successfully
+2017-04-19 17:50:07 Application terminate
+2017-04-19 17:51:04 running Application...
+2017-04-19 17:51:04 ../config/main.cfg included
+2017-04-19 17:51:04 Done!
+2017-04-19 17:51:04 main_controller componet has been created successfully
+2017-04-19 17:51:04 running default Action
+2017-04-19 17:51:04 /2 request recived
+2017-04-19 17:51:04 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 17:51:04 request_manager componet has been created successfully
+2017-04-19 17:51:04 Application terminate
+2017-04-19 17:51:05 running Application...
+2017-04-19 17:51:05 ../config/main.cfg included
+2017-04-19 17:51:05 Done!
+2017-04-19 17:51:05 main_controller componet has been created successfully
+2017-04-19 17:51:05 running default Action
+2017-04-19 17:51:05 /favicon.ico request recived
+2017-04-19 17:51:05 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 17:51:05 request_manager componet has been created successfully
+2017-04-19 17:51:05 Application terminate
+2017-04-19 17:51:28 running Application...
+2017-04-19 17:51:28 ../config/main.cfg included
+2017-04-19 17:51:28 Done!
+2017-04-19 17:51:28 main_controller componet has been created successfully
+2017-04-19 17:51:28 running default Action
+2017-04-19 17:51:28 /2 request recived
+2017-04-19 17:51:28 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 17:51:28 request_manager componet has been created successfully
+2017-04-19 17:51:28 Application terminate
+2017-04-19 17:51:28 running Application...
+2017-04-19 17:51:28 ../config/main.cfg included
+2017-04-19 17:51:28 Done!
+2017-04-19 17:51:28 main_controller componet has been created successfully
+2017-04-19 17:51:28 running default Action
+2017-04-19 17:51:28 /favicon.ico request recived
+2017-04-19 17:51:28 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 17:51:28 request_manager componet has been created successfully
+2017-04-19 17:51:28 Application terminate
+2017-04-19 18:13:15 running Application...
+2017-04-19 18:13:15 ../config/main.cfg included
+2017-04-19 18:13:15 Done!
+2017-04-19 18:13:15 main_controller componet has been created successfully
+2017-04-19 18:13:15 running default Action
+2017-04-19 18:13:15 /favicon.ico request recived
+2017-04-19 18:13:15 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:13:15 request_manager componet has been created successfully
+2017-04-19 18:13:15 Application terminate
+2017-04-19 18:14:09 running Application...
+2017-04-19 18:14:09 ../config/main.cfg included
+2017-04-19 18:14:09 Done!
+2017-04-19 18:14:09 main_controller componet has been created successfully
+2017-04-19 18:14:09 running default Action
+2017-04-19 18:14:09 /favicon.ico request recived
+2017-04-19 18:14:09 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:14:09 request_manager componet has been created successfully
+2017-04-19 18:14:09 Application terminate
+2017-04-19 18:14:16 running Application...
+2017-04-19 18:14:16 ../config/main.cfg included
+2017-04-19 18:14:16 Done!
+2017-04-19 18:14:16 main_controller componet has been created successfully
+2017-04-19 18:14:16 running default Action
+2017-04-19 18:14:16 / request recived
+2017-04-19 18:14:16 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:14:16 request_manager componet has been created successfully
+2017-04-19 18:14:16 Application terminate
+2017-04-19 18:14:16 running Application...
+2017-04-19 18:14:16 ../config/main.cfg included
+2017-04-19 18:14:16 Done!
+2017-04-19 18:14:16 main_controller componet has been created successfully
+2017-04-19 18:14:16 running default Action
+2017-04-19 18:14:16 /favicon.ico request recived
+2017-04-19 18:14:16 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:14:16 request_manager componet has been created successfully
+2017-04-19 18:14:16 Application terminate
+2017-04-19 18:14:41 running Application...
+2017-04-19 18:14:41 ../config/main.cfg included
+2017-04-19 18:14:41 Done!
+2017-04-19 18:14:41 main_controller componet has been created successfully
+2017-04-19 18:14:41 running default Action
+2017-04-19 18:14:41 / request recived
+2017-04-19 18:14:41 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:14:41 request_manager componet has been created successfully
+2017-04-19 18:14:41 Application terminate
+2017-04-19 18:14:41 running Application...
+2017-04-19 18:14:41 ../config/main.cfg included
+2017-04-19 18:14:41 Done!
+2017-04-19 18:14:41 main_controller componet has been created successfully
+2017-04-19 18:14:41 running default Action
+2017-04-19 18:14:41 /favicon.ico request recived
+2017-04-19 18:14:41 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:14:41 request_manager componet has been created successfully
+2017-04-19 18:14:41 Application terminate
+2017-04-19 18:14:49 running Application...
+2017-04-19 18:14:49 ../config/main.cfg included
+2017-04-19 18:14:49 Done!
+2017-04-19 18:14:49 main_controller componet has been created successfully
+2017-04-19 18:14:49 running default Action
+2017-04-19 18:14:49 / request recived
+2017-04-19 18:14:49 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:14:49 request_manager componet has been created successfully
+2017-04-19 18:14:49 Application terminate
+2017-04-19 18:14:49 running Application...
+2017-04-19 18:14:49 ../config/main.cfg included
+2017-04-19 18:14:49 Done!
+2017-04-19 18:14:49 main_controller componet has been created successfully
+2017-04-19 18:14:49 running default Action
+2017-04-19 18:14:49 /favicon.ico request recived
+2017-04-19 18:14:49 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:14:49 request_manager componet has been created successfully
+2017-04-19 18:14:49 Application terminate
+2017-04-19 18:14:52 running Application...
+2017-04-19 18:14:52 ../config/main.cfg included
+2017-04-19 18:14:52 Done!
+2017-04-19 18:14:52 main_controller componet has been created successfully
+2017-04-19 18:14:52 running default Action
+2017-04-19 18:14:52 / request recived
+2017-04-19 18:14:52 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:14:52 request_manager componet has been created successfully
+2017-04-19 18:14:52 Application terminate
+2017-04-19 18:14:52 running Application...
+2017-04-19 18:14:52 ../config/main.cfg included
+2017-04-19 18:14:52 Done!
+2017-04-19 18:14:52 main_controller componet has been created successfully
+2017-04-19 18:14:52 running default Action
+2017-04-19 18:14:52 /favicon.ico request recived
+2017-04-19 18:14:52 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:14:52 request_manager componet has been created successfully
+2017-04-19 18:14:52 Application terminate
+2017-04-19 18:16:58 running Application...
+2017-04-19 18:16:58 ../config/main.cfg included
+2017-04-19 18:16:58 Done!
+2017-04-19 18:16:58 main_controller componet has been created successfully
+2017-04-19 18:16:58 running default Action
+2017-04-19 18:16:58 / request recived
+2017-04-19 18:16:58 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:16:58 request_manager componet has been created successfully
+2017-04-19 18:16:58 Application terminate
+2017-04-19 18:16:58 running Application...
+2017-04-19 18:16:58 ../config/main.cfg included
+2017-04-19 18:16:58 Done!
+2017-04-19 18:16:58 main_controller componet has been created successfully
+2017-04-19 18:16:58 running default Action
+2017-04-19 18:16:58 /favicon.ico request recived
+2017-04-19 18:16:58 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:16:58 request_manager componet has been created successfully
+2017-04-19 18:16:58 Application terminate
+2017-04-19 18:18:31 running Application...
+2017-04-19 18:18:31 ../config/main.cfg included
+2017-04-19 18:18:31 Done!
+2017-04-19 18:18:31 main_controller componet has been created successfully
+2017-04-19 18:18:31 running default Action
+2017-04-19 18:18:31 / request recived
+2017-04-19 18:18:31 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:18:31 request_manager componet has been created successfully
+2017-04-19 18:18:31 Application terminate
+2017-04-19 18:18:31 running Application...
+2017-04-19 18:18:31 ../config/main.cfg included
+2017-04-19 18:18:31 Done!
+2017-04-19 18:18:31 main_controller componet has been created successfully
+2017-04-19 18:18:31 running default Action
+2017-04-19 18:18:31 /favicon.ico request recived
+2017-04-19 18:18:31 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:18:31 request_manager componet has been created successfully
+2017-04-19 18:18:31 Application terminate
+2017-04-19 18:19:01 running Application...
+2017-04-19 18:19:01 ../config/main.cfg included
+2017-04-19 18:19:01 Done!
+2017-04-19 18:19:01 main_controller componet has been created successfully
+2017-04-19 18:19:01 running default Action
+2017-04-19 18:19:01 / request recived
+2017-04-19 18:19:01 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:19:01 request_manager componet has been created successfully
+2017-04-19 18:19:01 Application terminate
+2017-04-19 18:19:01 running Application...
+2017-04-19 18:19:01 ../config/main.cfg included
+2017-04-19 18:19:01 Done!
+2017-04-19 18:19:01 main_controller componet has been created successfully
+2017-04-19 18:19:01 running default Action
+2017-04-19 18:19:01 /favicon.ico request recived
+2017-04-19 18:19:01 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:19:01 request_manager componet has been created successfully
+2017-04-19 18:19:01 Application terminate
+2017-04-19 18:19:05 running Application...
+2017-04-19 18:19:05 ../config/main.cfg included
+2017-04-19 18:19:05 Done!
+2017-04-19 18:19:05 main_controller componet has been created successfully
+2017-04-19 18:19:05 running default Action
+2017-04-19 18:19:05 / request recived
+2017-04-19 18:19:05 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:19:05 request_manager componet has been created successfully
+2017-04-19 18:19:05 Application terminate
+2017-04-19 18:19:05 running Application...
+2017-04-19 18:19:05 ../config/main.cfg included
+2017-04-19 18:19:05 Done!
+2017-04-19 18:19:05 main_controller componet has been created successfully
+2017-04-19 18:19:05 running default Action
+2017-04-19 18:19:05 /favicon.ico request recived
+2017-04-19 18:19:05 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:19:05 request_manager componet has been created successfully
+2017-04-19 18:19:05 Application terminate
+2017-04-19 18:19:06 running Application...
+2017-04-19 18:19:06 ../config/main.cfg included
+2017-04-19 18:19:06 Done!
+2017-04-19 18:19:06 main_controller componet has been created successfully
+2017-04-19 18:19:06 running default Action
+2017-04-19 18:19:06 / request recived
+2017-04-19 18:19:06 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:19:06 request_manager componet has been created successfully
+2017-04-19 18:19:06 Application terminate
+2017-04-19 18:19:06 running Application...
+2017-04-19 18:19:06 ../config/main.cfg included
+2017-04-19 18:19:06 Done!
+2017-04-19 18:19:06 main_controller componet has been created successfully
+2017-04-19 18:19:06 running default Action
+2017-04-19 18:19:06 /favicon.ico request recived
+2017-04-19 18:19:06 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:19:06 request_manager componet has been created successfully
+2017-04-19 18:19:06 Application terminate
+2017-04-19 18:22:45 running Application...
+2017-04-19 18:22:45 ../config/main.cfg included
+2017-04-19 18:22:45 Done!
+2017-04-19 18:22:45 main_controller componet has been created successfully
+2017-04-19 18:22:45 running default Action
+2017-04-19 18:22:45 / request recived
+2017-04-19 18:22:45 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:22:45 request_manager componet has been created successfully
+2017-04-19 18:22:45 Application terminate
+2017-04-19 18:22:46 running Application...
+2017-04-19 18:22:46 ../config/main.cfg included
+2017-04-19 18:22:46 Done!
+2017-04-19 18:22:46 main_controller componet has been created successfully
+2017-04-19 18:22:46 running default Action
+2017-04-19 18:22:46 /favicon.ico request recived
+2017-04-19 18:22:46 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:22:46 request_manager componet has been created successfully
+2017-04-19 18:22:46 Application terminate
+2017-04-19 18:22:47 running Application...
+2017-04-19 18:22:47 ../config/main.cfg included
+2017-04-19 18:22:47 Done!
+2017-04-19 18:22:47 main_controller componet has been created successfully
+2017-04-19 18:22:47 running default Action
+2017-04-19 18:22:47 / request recived
+2017-04-19 18:22:47 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:22:47 request_manager componet has been created successfully
+2017-04-19 18:22:47 Application terminate
+2017-04-19 18:22:47 running Application...
+2017-04-19 18:22:47 ../config/main.cfg included
+2017-04-19 18:22:47 Done!
+2017-04-19 18:22:47 main_controller componet has been created successfully
+2017-04-19 18:22:47 running default Action
+2017-04-19 18:22:47 /favicon.ico request recived
+2017-04-19 18:22:47 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:22:47 request_manager componet has been created successfully
+2017-04-19 18:22:47 Application terminate
+2017-04-19 18:22:47 running Application...
+2017-04-19 18:22:47 ../config/main.cfg included
+2017-04-19 18:22:47 Done!
+2017-04-19 18:22:47 main_controller componet has been created successfully
+2017-04-19 18:22:47 running default Action
+2017-04-19 18:22:47 / request recived
+2017-04-19 18:22:47 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:22:47 request_manager componet has been created successfully
+2017-04-19 18:22:47 Application terminate
+2017-04-19 18:22:47 running Application...
+2017-04-19 18:22:47 ../config/main.cfg included
+2017-04-19 18:22:47 Done!
+2017-04-19 18:22:47 main_controller componet has been created successfully
+2017-04-19 18:22:47 running default Action
+2017-04-19 18:22:47 /favicon.ico request recived
+2017-04-19 18:22:47 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:22:47 request_manager componet has been created successfully
+2017-04-19 18:22:47 Application terminate
+2017-04-19 18:22:47 running Application...
+2017-04-19 18:22:47 ../config/main.cfg included
+2017-04-19 18:22:47 Done!
+2017-04-19 18:22:47 main_controller componet has been created successfully
+2017-04-19 18:22:47 running default Action
+2017-04-19 18:22:47 / request recived
+2017-04-19 18:22:47 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:22:47 request_manager componet has been created successfully
+2017-04-19 18:22:47 Application terminate
+2017-04-19 18:22:47 running Application...
+2017-04-19 18:22:47 ../config/main.cfg included
+2017-04-19 18:22:47 Done!
+2017-04-19 18:22:47 main_controller componet has been created successfully
+2017-04-19 18:22:47 running default Action
+2017-04-19 18:22:47 /favicon.ico request recived
+2017-04-19 18:22:47 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:22:47 request_manager componet has been created successfully
+2017-04-19 18:22:47 Application terminate
+2017-04-19 18:22:59 running Application...
+2017-04-19 18:22:59 ../config/main.cfg included
+2017-04-19 18:22:59 Done!
+2017-04-19 18:22:59 main_controller componet has been created successfully
+2017-04-19 18:22:59 running default Action
+2017-04-19 18:22:59 / request recived
+2017-04-19 18:22:59 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:22:59 request_manager componet has been created successfully
+2017-04-19 18:22:59 Application terminate
+2017-04-19 18:22:59 running Application...
+2017-04-19 18:22:59 ../config/main.cfg included
+2017-04-19 18:22:59 Done!
+2017-04-19 18:22:59 main_controller componet has been created successfully
+2017-04-19 18:22:59 running default Action
+2017-04-19 18:22:59 /favicon.ico request recived
+2017-04-19 18:22:59 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:22:59 request_manager componet has been created successfully
+2017-04-19 18:22:59 Application terminate
+2017-04-19 18:23:02 running Application...
+2017-04-19 18:23:02 ../config/main.cfg included
+2017-04-19 18:23:02 Done!
+2017-04-19 18:23:02 main_controller componet has been created successfully
+2017-04-19 18:23:02 running default Action
+2017-04-19 18:23:02 / request recived
+2017-04-19 18:23:02 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:23:02 request_manager componet has been created successfully
+2017-04-19 18:23:02 Application terminate
+2017-04-19 18:23:02 running Application...
+2017-04-19 18:23:02 ../config/main.cfg included
+2017-04-19 18:23:02 Done!
+2017-04-19 18:23:02 main_controller componet has been created successfully
+2017-04-19 18:23:02 running default Action
+2017-04-19 18:23:02 /favicon.ico request recived
+2017-04-19 18:23:02 request contains: controller - favico; action: n; parametre: a:1:{i:0;s:4:".ico";}
+2017-04-19 18:23:02 request_manager componet has been created successfully
+2017-04-19 18:23:02 Application terminate
+2017-04-19 18:23:32 running Application...
+2017-04-19 18:23:32 ../config/main.cfg included
+2017-04-19 18:23:32 Done!
+2017-04-19 18:23:32 main_controller componet has been created successfully
+2017-04-19 18:23:32 running default Action
+2017-04-19 18:23:32 / request recived
+2017-04-19 18:23:32 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:23:32 request_manager componet has been created successfully
+2017-04-19 18:23:32 Application terminate
+2017-04-19 18:23:35 running Application...
+2017-04-19 18:23:35 ../config/main.cfg included
+2017-04-19 18:23:35 Done!
+2017-04-19 18:23:35 main_controller componet has been created successfully
+2017-04-19 18:23:35 running default Action
+2017-04-19 18:23:35 / request recived
+2017-04-19 18:23:35 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:23:35 request_manager componet has been created successfully
+2017-04-19 18:23:35 Application terminate
+2017-04-19 18:24:31 running Application...
+2017-04-19 18:24:31 ../config/main.cfg included
+2017-04-19 18:24:31 Done!
+2017-04-19 18:24:31 main_controller componet has been created successfully
+2017-04-19 18:24:31 running default Action
+2017-04-19 18:24:31 / request recived
+2017-04-19 18:24:31 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:24:31 request_manager componet has been created successfully
+2017-04-19 18:24:31 Application terminate
+2017-04-19 18:24:32 running Application...
+2017-04-19 18:24:32 ../config/main.cfg included
+2017-04-19 18:24:32 Done!
+2017-04-19 18:24:32 main_controller componet has been created successfully
+2017-04-19 18:24:32 running default Action
+2017-04-19 18:24:32 / request recived
+2017-04-19 18:24:32 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:24:32 request_manager componet has been created successfully
+2017-04-19 18:24:32 Application terminate
+2017-04-19 18:24:34 running Application...
+2017-04-19 18:24:34 ../config/main.cfg included
+2017-04-19 18:24:34 Done!
+2017-04-19 18:24:34 main_controller componet has been created successfully
+2017-04-19 18:24:34 running default Action
+2017-04-19 18:24:34 / request recived
+2017-04-19 18:24:34 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:24:34 request_manager componet has been created successfully
+2017-04-19 18:24:34 Application terminate
+2017-04-19 18:24:50 running Application...
+2017-04-19 18:24:50 ../config/main.cfg included
+2017-04-19 18:24:50 Done!
+2017-04-19 18:24:50 main_controller componet has been created successfully
+2017-04-19 18:24:50 running default Action
+2017-04-19 18:24:50 / request recived
+2017-04-19 18:24:50 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:24:50 request_manager componet has been created successfully
+2017-04-19 18:24:50 Application terminate
+2017-04-19 18:44:05 running Application...
+2017-04-19 18:44:05 ../config/main.cfg included
+2017-04-19 18:44:05 Done!
+2017-04-19 18:44:05 main_controller componet has been created successfully
+2017-04-19 18:44:05 running default Action
+2017-04-19 18:44:05 /234243 request recived
+2017-04-19 18:44:05 request contains: controller - 23424; action: 3; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:44:05 request_manager componet has been created successfully
+2017-04-19 18:44:05 Application terminate
+2017-04-19 18:53:13 running Application...
+2017-04-19 18:53:13 ../config/main.cfg included
+2017-04-19 18:53:13 Done!
+2017-04-19 18:53:13 main_controller componet has been created successfully
+2017-04-19 18:53:13 running default Action
+2017-04-19 18:53:13 /234243 request recived
+2017-04-19 18:53:13 request contains: controller - 23424; action: 3; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:53:13 request_manager componet has been created successfully
+2017-04-19 18:53:13 Application terminate
+2017-04-19 18:53:17 running Application...
+2017-04-19 18:53:17 ../config/main.cfg included
+2017-04-19 18:53:17 Done!
+2017-04-19 18:53:17 main_controller componet has been created successfully
+2017-04-19 18:53:17 running default Action
+2017-04-19 18:53:17 / request recived
+2017-04-19 18:53:17 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:53:17 request_manager componet has been created successfully
+2017-04-19 18:53:17 Application terminate
+2017-04-19 18:53:55 running Application...
+2017-04-19 18:53:55 ../config/main.cfg included
+2017-04-19 18:53:55 Done!
+2017-04-19 18:53:55 main_controller componet has been created successfully
+2017-04-19 18:53:55 running default Action
+2017-04-19 18:53:55 / request recived
+2017-04-19 18:53:55 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:53:55 request_manager componet has been created successfully
+2017-04-19 18:53:55 Application terminate
+2017-04-19 18:54:00 running Application...
+2017-04-19 18:54:00 ../config/main.cfg included
+2017-04-19 18:54:00 Done!
+2017-04-19 18:54:00 main_controller componet has been created successfully
+2017-04-19 18:54:00 running default Action
+2017-04-19 18:54:00 / request recived
+2017-04-19 18:54:00 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:54:00 request_manager componet has been created successfully
+2017-04-19 18:54:00 Application terminate
+2017-04-19 18:55:11 running Application...
+2017-04-19 18:55:11 ../config/main.cfg included
+2017-04-19 18:55:11 Done!
+2017-04-19 18:55:11 main_controller componet has been created successfully
+2017-04-19 18:55:11 running default Action
+2017-04-19 18:55:11 /auth request recived
+2017-04-19 18:55:11 request contains: controller - aut; action: h; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:55:11 request_manager componet has been created successfully
+2017-04-19 18:55:11 Application terminate
+2017-04-19 18:55:11 running Application...
+2017-04-19 18:55:11 ../config/main.cfg included
+2017-04-19 18:55:11 Done!
+2017-04-19 18:55:11 main_controller componet has been created successfully
+2017-04-19 18:55:11 running default Action
+2017-04-19 18:55:11 /asfd request recived
+2017-04-19 18:55:11 request contains: controller - asf; action: d; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:55:11 request_manager componet has been created successfully
+2017-04-19 18:55:11 Application terminate
+2017-04-19 18:55:14 running Application...
+2017-04-19 18:55:15 ../config/main.cfg included
+2017-04-19 18:55:15 Done!
+2017-04-19 18:55:15 main_controller componet has been created successfully
+2017-04-19 18:55:15 running default Action
+2017-04-19 18:55:15 / request recived
+2017-04-19 18:55:15 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:55:15 request_manager componet has been created successfully
+2017-04-19 18:55:15 Application terminate
+2017-04-19 18:56:02 running Application...
+2017-04-19 18:56:02 ../config/main.cfg included
+2017-04-19 18:56:02 Done!
+2017-04-19 18:56:02 main_controller componet has been created successfully
+2017-04-19 18:56:02 running default Action
+2017-04-19 18:56:02 / request recived
+2017-04-19 18:56:02 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:56:02 request_manager componet has been created successfully
+2017-04-19 18:56:02 Application terminate
+2017-04-19 18:56:03 running Application...
+2017-04-19 18:56:03 ../config/main.cfg included
+2017-04-19 18:56:03 Done!
+2017-04-19 18:56:03 main_controller componet has been created successfully
+2017-04-19 18:56:03 running default Action
+2017-04-19 18:56:03 / request recived
+2017-04-19 18:56:03 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:56:03 request_manager componet has been created successfully
+2017-04-19 18:56:03 Application terminate
+2017-04-19 18:56:04 running Application...
+2017-04-19 18:56:04 ../config/main.cfg included
+2017-04-19 18:56:04 Done!
+2017-04-19 18:56:04 main_controller componet has been created successfully
+2017-04-19 18:56:04 running default Action
+2017-04-19 18:56:04 / request recived
+2017-04-19 18:56:04 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 18:56:04 request_manager componet has been created successfully
+2017-04-19 18:56:04 Application terminate
+2017-04-19 19:00:49 running Application...
+2017-04-19 19:00:49 ../config/main.cfg included
+2017-04-19 19:00:49 Done!
+2017-04-19 19:00:49 main_controller componet has been created successfully
+2017-04-19 19:00:49 running default Action
+2017-04-19 19:00:49 /345354 request recived
+2017-04-19 19:00:49 request contains: controller - 34535; action: 4; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 19:00:49 request_manager componet has been created successfully
+2017-04-19 19:00:49 Application terminate
+2017-04-19 19:24:57 running Application...
+2017-04-19 19:24:57 ../config/main.cfg included
+2017-04-19 19:24:57 Done!
+2017-04-19 19:24:57 main_controller componet has been created successfully
+2017-04-19 19:24:57 running default Action
+2017-04-19 19:24:57 /test/file.html request recived
+2017-04-19 19:24:57 request contains: controller - test; action: file; parametre: a:1:{i:0;s:5:".html";}
+2017-04-19 19:24:57 request_manager componet has been created successfully
+2017-04-19 19:24:57 Application terminate
+2017-04-19 19:27:33 running Application...
+2017-04-19 19:27:33 ../config/main.cfg included
+2017-04-19 19:27:33 Done!
+2017-04-19 19:27:33 main_controller componet has been created successfully
+2017-04-19 19:27:33 running default Action
+2017-04-19 19:27:33 /index.msl request recived
+2017-04-19 19:27:33 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".msl";}
+2017-04-19 19:27:33 request_manager componet has been created successfully
+2017-04-19 19:27:33 Application terminate
+2017-04-19 19:27:41 running Application...
+2017-04-19 19:27:41 ../config/main.cfg included
+2017-04-19 19:27:41 Done!
+2017-04-19 19:27:41 main_controller componet has been created successfully
+2017-04-19 19:27:41 running default Action
+2017-04-19 19:27:41 /index.php request recived
+2017-04-19 19:27:41 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:27:41 request_manager componet has been created successfully
+2017-04-19 19:27:41 Application terminate
+2017-04-19 19:28:47 running Application...
+2017-04-19 19:28:47 ../config/main.cfg included
+2017-04-19 19:28:47 Done!
+2017-04-19 19:28:47 main_controller componet has been created successfully
+2017-04-19 19:28:47 running default Action
+2017-04-19 19:28:47 /index.php request recived
+2017-04-19 19:28:47 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:28:47 request_manager componet has been created successfully
+2017-04-19 19:28:47 Application terminate
+2017-04-19 19:28:54 running Application...
+2017-04-19 19:28:54 ../config/main.cfg included
+2017-04-19 19:28:54 Done!
+2017-04-19 19:28:54 main_controller componet has been created successfully
+2017-04-19 19:28:54 running default Action
+2017-04-19 19:28:54 /index22.php request recived
+2017-04-19 19:28:54 request contains: controller - index2; action: 2; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:28:54 request_manager componet has been created successfully
+2017-04-19 19:28:54 Application terminate
+2017-04-19 19:30:53 running Application...
+2017-04-19 19:30:53 ../config/main.cfg included
+2017-04-19 19:30:53 Done!
+2017-04-19 19:30:53 main_controller componet has been created successfully
+2017-04-19 19:30:53 running default Action
+2017-04-19 19:30:53 /index22.php request recived
+2017-04-19 19:30:53 request contains: controller - index2; action: 2; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:30:53 request_manager componet has been created successfully
+2017-04-19 19:30:53 Application terminate
+2017-04-19 19:30:55 running Application...
+2017-04-19 19:30:55 ../config/main.cfg included
+2017-04-19 19:30:55 Done!
+2017-04-19 19:30:55 main_controller componet has been created successfully
+2017-04-19 19:30:55 running default Action
+2017-04-19 19:30:55 /index22.php request recived
+2017-04-19 19:30:55 request contains: controller - index2; action: 2; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:30:55 request_manager componet has been created successfully
+2017-04-19 19:30:55 Application terminate
+2017-04-19 19:30:55 running Application...
+2017-04-19 19:30:55 ../config/main.cfg included
+2017-04-19 19:30:55 Done!
+2017-04-19 19:30:55 main_controller componet has been created successfully
+2017-04-19 19:30:55 running default Action
+2017-04-19 19:30:55 /index22.php request recived
+2017-04-19 19:30:55 request contains: controller - index2; action: 2; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:30:55 request_manager componet has been created successfully
+2017-04-19 19:30:55 Application terminate
+2017-04-19 19:31:00 running Application...
+2017-04-19 19:31:00 ../config/main.cfg included
+2017-04-19 19:31:00 Done!
+2017-04-19 19:31:00 main_controller componet has been created successfully
+2017-04-19 19:31:00 running default Action
+2017-04-19 19:31:00 /index22.php request recived
+2017-04-19 19:31:00 request contains: controller - index2; action: 2; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:31:00 request_manager componet has been created successfully
+2017-04-19 19:31:00 Application terminate
+2017-04-19 19:31:03 running Application...
+2017-04-19 19:31:03 ../config/main.cfg included
+2017-04-19 19:31:03 Done!
+2017-04-19 19:31:03 main_controller componet has been created successfully
+2017-04-19 19:31:03 running default Action
+2017-04-19 19:31:03 /index22.php request recived
+2017-04-19 19:31:03 request contains: controller - index2; action: 2; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:31:03 request_manager componet has been created successfully
+2017-04-19 19:31:03 Application terminate
+2017-04-19 19:31:54 running Application...
+2017-04-19 19:31:54 ../config/main.cfg included
+2017-04-19 19:31:54 Done!
+2017-04-19 19:31:54 main_controller componet has been created successfully
+2017-04-19 19:31:54 running default Action
+2017-04-19 19:31:54 /index.php request recived
+2017-04-19 19:31:54 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:31:54 request_manager componet has been created successfully
+2017-04-19 19:31:54 Application terminate
+2017-04-19 19:32:12 running Application...
+2017-04-19 19:32:12 ../config/main.cfg included
+2017-04-19 19:32:12 Done!
+2017-04-19 19:32:12 main_controller componet has been created successfully
+2017-04-19 19:32:12 running default Action
+2017-04-19 19:32:12 /index.php request recived
+2017-04-19 19:32:12 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:32:12 request_manager componet has been created successfully
+2017-04-19 19:32:12 Application terminate
+2017-04-19 19:32:14 running Application...
+2017-04-19 19:32:14 ../config/main.cfg included
+2017-04-19 19:32:14 Done!
+2017-04-19 19:32:14 main_controller componet has been created successfully
+2017-04-19 19:32:14 running default Action
+2017-04-19 19:32:14 /index4.php request recived
+2017-04-19 19:32:14 request contains: controller - index; action: 4; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:32:14 request_manager componet has been created successfully
+2017-04-19 19:32:14 Application terminate
+2017-04-19 19:32:18 running Application...
+2017-04-19 19:32:18 ../config/main.cfg included
+2017-04-19 19:32:18 Done!
+2017-04-19 19:32:18 main_controller componet has been created successfully
+2017-04-19 19:32:18 running default Action
+2017-04-19 19:32:18 /index.php request recived
+2017-04-19 19:32:18 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:32:18 request_manager componet has been created successfully
+2017-04-19 19:32:18 Application terminate
+2017-04-19 19:32:47 running Application...
+2017-04-19 19:32:47 ../config/main.cfg included
+2017-04-19 19:32:47 Done!
+2017-04-19 19:32:47 main_controller componet has been created successfully
+2017-04-19 19:32:47 running default Action
+2017-04-19 19:32:47 /index.php request recived
+2017-04-19 19:32:47 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:32:47 request_manager componet has been created successfully
+2017-04-19 19:32:47 Application terminate
+2017-04-19 19:32:56 running Application...
+2017-04-19 19:32:56 ../config/main.cfg included
+2017-04-19 19:32:56 Done!
+2017-04-19 19:32:56 main_controller componet has been created successfully
+2017-04-19 19:32:56 running default Action
+2017-04-19 19:32:56 /index4.php request recived
+2017-04-19 19:32:56 request contains: controller - index; action: 4; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:32:56 request_manager componet has been created successfully
+2017-04-19 19:32:56 Application terminate
+2017-04-19 19:33:37 running Application...
+2017-04-19 19:33:37 ../config/main.cfg included
+2017-04-19 19:33:37 Done!
+2017-04-19 19:33:37 main_controller componet has been created successfully
+2017-04-19 19:33:37 running default Action
+2017-04-19 19:33:37 /index.php request recived
+2017-04-19 19:33:37 request contains: controller - inde; action: x; parametre: a:1:{i:0;s:4:".php";}
+2017-04-19 19:33:37 request_manager componet has been created successfully
+2017-04-19 19:33:37 Application terminate
+2017-04-19 19:34:09 running Application...
+2017-04-19 19:34:09 ../config/main.cfg included
+2017-04-19 19:34:09 Done!
+2017-04-19 19:34:09 main_controller componet has been created successfully
+2017-04-19 19:34:09 running default Action
+2017-04-19 19:34:09 / request recived
+2017-04-19 19:34:09 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 19:34:09 request_manager componet has been created successfully
+2017-04-19 19:34:09 Application terminate
+2017-04-19 19:56:29 running Application...
+2017-04-19 19:56:29 ../config/main.cfg included
+2017-04-19 19:56:29 Done!
+2017-04-19 19:56:29 main_controller componet has been created successfully
+2017-04-19 19:56:29 running default Action
+2017-04-19 19:56:29 / request recived
+2017-04-19 19:56:29 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 19:56:29 request_manager componet has been created successfully
+2017-04-19 19:56:29 Application terminate
+2017-04-19 19:58:26 running Application...
+2017-04-19 19:58:26 ../config/main.cfg included
+2017-04-19 19:58:26 Done!
+2017-04-19 19:58:26 main_controller componet has been created successfully
+2017-04-19 19:58:26 running default Action
+2017-04-19 19:58:26 / request recived
+2017-04-19 19:58:26 request contains: controller - ; action: ; parametre: a:1:{i:0;s:0:"";}
+2017-04-19 19:58:26 request_manager componet has been created successfully
+2017-04-19 19:58:26 Application terminate
