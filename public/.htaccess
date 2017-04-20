@@ -1,7 +1,7 @@
 RewriteEngine on
 RewriteRule .htaccess - [F]
-RewriteRule index\w+\.php - [F]
-RewriteBase /test/
+#RewriteRule index\w+\.php - [F]
+#RewriteBase /
 
 # RewriteCond %{REQUEST_URI} ^\s$
 # RewriteRule ^(.*)$ index1.php [QSA,L]
@@ -14,7 +14,9 @@ RewriteBase /test/
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php [QSA,L]
+RewriteRule ^(\w+){1}\/?(\w+)?\/?(\w*)$ index.php [QSA,L]
+
+RewriteRule ^[^index.php]$ index.php?cont=defaultController&act=defaultAction&p1=param1&p2=param2 [QSA,L]
 
 
 #RewriteLog "/usr/local/var/apache/logs/rewrite.log"

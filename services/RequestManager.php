@@ -29,14 +29,29 @@ class RequestManager
 		$this->action = $matches['action'][0];
 		$this->params = array_merge(explode("/", $matches['params'][0]), $_REQUEST);
 		
-		Log::write('request contains: controller - ' . $this->controller . '; action: '  . $this->action . '; parametre: ' . serialize($this->params));
+		echo "<pre>";
+		var_dump($this->params);
+		echo "<pre>";
+
+		/*
+
+		$paramStr = '';
+		foreach ($this->params as $param => $val) {
+			$paramStr .= $param . " = " . $val;
+		}
+		echo "<pre>";
+		var_dump($paramStr);
+		echo "<pre>";
+		
+		*/
+
+		Log::write('request contains: controller - ' . $this->controller . '; action: '  . $this->action . '; parametrs: ' );
 
 	}
 
 	public function getControllerName() 
 	{
 		return $this->controller;
-
 	}
 	public function getActionName()
 	{
