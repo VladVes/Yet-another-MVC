@@ -1725,3 +1725,201 @@
 2017-04-20 22:17:09 request contains: controller - index; action: ddd; parametrs: 
 2017-04-20 22:17:09 request_manager componet has been created successfully
 2017-04-20 22:17:09 Application terminate
+2017-04-21 20:28:51 running Application...
+2017-04-21 20:28:51 ../config/main.cfg included
+2017-04-21 20:28:51 Done!
+2017-04-21 20:28:51 main_controller componet has been created successfully
+2017-04-21 20:28:51 running default Action
+2017-04-21 20:28:51 /index/ddd/eeerrww request recived
+2017-04-21 20:28:51 request contains: controller - index; action: ddd; parametrs: 
+2017-04-21 20:28:51 request_manager componet has been created successfully
+2017-04-21 20:28:51 Application terminate
+2017-04-21 20:29:31 running Application...
+2017-04-21 20:29:31 ../config/main.cfg included
+2017-04-21 20:29:31 Done!
+2017-04-21 20:29:31 main_controller componet has been created successfully
+2017-04-21 20:29:31 running default Action
+2017-04-21 20:29:32 /index request recived
+2017-04-21 20:29:32 request contains: controller - index; action: ; parametrs: 
+2017-04-21 20:29:32 request_manager componet has been created successfully
+2017-04-21 20:29:32 Application terminate
+2017-04-21 20:29:50 running Application...
+2017-04-21 20:29:50 ../config/main.cfg included
+2017-04-21 20:29:50 Done!
+2017-04-21 20:29:50 main_controller componet has been created successfully
+2017-04-21 20:29:50 running default Action
+2017-04-21 20:29:50 /indexdddsdfsd request recived
+2017-04-21 20:29:50 request contains: controller - indexdddsdfsd; action: ; parametrs: 
+2017-04-21 20:29:50 request_manager componet has been created successfully
+2017-04-21 20:29:50 Application terminate
+2017-04-21 20:46:19 running Application...
+2017-04-21 20:46:19 ../config/main.cfg included
+2017-04-21 20:46:19 Done!
+2017-04-21 20:46:19 main_controller componet has been created successfully
+2017-04-21 20:46:19 running default Action
+2017-04-21 20:46:19 /ind request recived
+2017-04-21 20:46:19 request contains: controller - ind; action: ; parametrs: 
+2017-04-21 20:46:19 request_manager componet has been created successfully
+2017-04-21 20:46:19 Application terminate
+2017-04-21 20:46:35 running Application...
+2017-04-21 20:46:35 ../config/main.cfg included
+2017-04-21 20:46:35 Done!
+2017-04-21 20:46:35 main_controller componet has been created successfully
+2017-04-21 20:46:35 running default Action
+2017-04-21 20:46:35 /ind/ request recived
+2017-04-21 20:46:35 request contains: controller - ind; action: ; parametrs: 
+2017-04-21 20:46:35 request_manager componet has been created successfully
+2017-04-21 20:46:35 Application terminate
+2017-04-21 20:47:53 running Application...
+2017-04-21 20:47:53 ../config/main.cfg included
+2017-04-21 20:47:53 Done!
+2017-04-21 20:47:53 main_controller componet has been created successfully
+2017-04-21 20:47:53 running default Action
+2017-04-21 20:47:53 /ind/action/p request recived
+2017-04-21 20:47:53 request contains: controller - ind; action: action; parametrs: 
+2017-04-21 20:47:53 request_manager componet has been created successfully
+2017-04-21 20:47:53 Application terminate
+2017-04-21 21:10:34 running Application...
+2017-04-21 21:10:34 ../config/main.cfg included
+2017-04-21 21:10:34 Done!
+2017-04-21 21:10:34 main_controller componet has been created successfully
+2017-04-21 21:10:34 running default Action
+2017-04-21 21:10:34 /ind/action/p request recived
+2017-04-21 21:10:34 request contains: controller - ind; action: action; parametrs: 
+2017-04-21 21:10:34 request_manager componet has been created successfully
+2017-04-21 21:10:34 Application terminate
+2017-04-21 21:37:15 running Application...
+2017-04-21 21:37:15 ../config/main.cfg included
+2017-04-21 21:37:15 Done!
+2017-04-21 21:37:15 main_controller componet has been created successfully
+2017-04-21 21:37:15 running default Action
+2017-04-21 21:37:15 /index request recived
+2017-04-21 21:37:15 request contains: controller - index; action: ; parametrs: 
+2017-04-21 21:37:15 request_manager componet has been created successfully
+2017-04-21 21:37:15 Application terminate
+2017-04-21 21:37:22 running Application...
+2017-04-21 21:37:22 ../config/main.cfg included
+2017-04-21 21:37:22 Done!
+2017-04-21 21:37:22 main_controller componet has been created successfully
+2017-04-21 21:37:22 running default Action
+2017-04-21 21:37:22 / request recived
+2017-04-21 21:37:22 request contains: controller - ; action: ; parametrs: 
+2017-04-21 21:37:22 request_manager componet has been created successfully
+2017-04-21 21:37:22 Application terminate
+2017-04-21 21:37:46 running Application...
+2017-04-21 21:37:46 ../config/main.cfg included
+2017-04-21 21:37:46 Done!
+2017-04-21 21:37:46 main_controller componet has been created successfully
+2017-04-21 21:37:46 running default Action
+2017-04-21 21:37:46 /controller/action/param1/param2/param3/ request recived
+2017-04-21 21:37:46 request contains: controller - controller; action: action; parametrs: 
+2017-04-21 21:37:46 request_manager componet has been created successfully
+2017-04-21 21:37:46 Application terminate
+2017-04-21 21:39:37 running Application...
+2017-04-21 21:39:37 ../config/main.cfg included
+2017-04-21 21:39:37 Done!
+2017-04-21 21:39:37 main_controller componet has been created successfully
+2017-04-21 21:39:37 running default Action
+2017-04-21 21:39:37 /controller/action/param1 request recived
+2017-04-21 21:39:37 request contains: controller - controller; action: action; parametrs: 
+2017-04-21 21:39:37 request_manager componet has been created successfully
+2017-04-21 21:39:37 Application terminate
+2017-04-21 21:41:22 running Application...
+2017-04-21 21:41:22 ../config/main.cfg included
+2017-04-21 21:41:22 Done!
+2017-04-21 21:41:22 main_controller componet has been created successfully
+2017-04-21 21:41:22 running default Action
+2017-04-21 21:41:22 /controller/action/param1/param2/param3/ request recived
+2017-04-21 21:41:22 request contains: controller - controller; action: action; parametrs: 
+2017-04-21 21:41:22 request_manager componet has been created successfully
+2017-04-21 21:41:22 Application terminate
+2017-04-21 21:44:38 running Application...
+2017-04-21 21:44:38 ../config/main.cfg included
+2017-04-21 21:44:38 Done!
+2017-04-21 21:44:38 main_controller componet has been created successfully
+2017-04-21 21:44:38 running default Action
+2017-04-21 21:44:38 /controller/action/param1/param2/param3/ request recived
+2017-04-21 21:44:38 request contains: controller - controller; action: action; parametrs: 
+2017-04-21 21:44:38 request_manager componet has been created successfully
+2017-04-21 21:44:38 Application terminate
+2017-04-21 21:45:36 running Application...
+2017-04-21 21:45:36 ../config/main.cfg included
+2017-04-21 21:45:36 Done!
+2017-04-21 21:45:36 main_controller componet has been created successfully
+2017-04-21 21:45:36 running default Action
+2017-04-21 21:45:36 /controller.. request recived
+2017-04-21 21:45:36 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 21:45:36 request_manager componet has been created successfully
+2017-04-21 21:45:36 Application terminate
+2017-04-21 21:47:37 running Application...
+2017-04-21 21:47:37 ../config/main.cfg included
+2017-04-21 21:47:37 Done!
+2017-04-21 21:47:37 main_controller componet has been created successfully
+2017-04-21 21:47:37 running default Action
+2017-04-21 21:47:37 /controller.. request recived
+2017-04-21 21:47:37 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 21:47:37 request_manager componet has been created successfully
+2017-04-21 21:47:37 Application terminate
+2017-04-21 21:54:58 running Application...
+2017-04-21 21:54:58 ../config/main.cfg included
+2017-04-21 21:54:58 Done!
+2017-04-21 21:54:58 main_controller componet has been created successfully
+2017-04-21 21:54:58 running default Action
+2017-04-21 21:54:58 /controller request recived
+2017-04-21 21:54:58 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 21:54:58 request_manager componet has been created successfully
+2017-04-21 21:54:58 Application terminate
+2017-04-21 21:55:41 running Application...
+2017-04-21 21:55:41 ../config/main.cfg included
+2017-04-21 21:55:41 Done!
+2017-04-21 21:55:41 main_controller componet has been created successfully
+2017-04-21 21:55:41 running default Action
+2017-04-21 21:55:41 /controller request recived
+2017-04-21 21:55:41 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 21:55:41 request_manager componet has been created successfully
+2017-04-21 21:55:41 Application terminate
+2017-04-21 21:55:55 running Application...
+2017-04-21 21:55:55 ../config/main.cfg included
+2017-04-21 21:55:55 Done!
+2017-04-21 21:55:55 main_controller componet has been created successfully
+2017-04-21 21:55:55 running default Action
+2017-04-21 21:55:55 /controller66 request recived
+2017-04-21 21:55:55 request contains: controller - controller66; action: ; parametrs: 
+2017-04-21 21:55:55 request_manager componet has been created successfully
+2017-04-21 21:55:55 Application terminate
+2017-04-21 21:56:29 running Application...
+2017-04-21 21:56:29 ../config/main.cfg included
+2017-04-21 21:56:29 Done!
+2017-04-21 21:56:29 main_controller componet has been created successfully
+2017-04-21 21:56:29 running default Action
+2017-04-21 21:56:29 /controller,,,d request recived
+2017-04-21 21:56:29 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 21:56:29 request_manager componet has been created successfully
+2017-04-21 21:56:29 Application terminate
+2017-04-21 21:58:02 running Application...
+2017-04-21 21:58:02 ../config/main.cfg included
+2017-04-21 21:58:02 Done!
+2017-04-21 21:58:02 main_controller componet has been created successfully
+2017-04-21 21:58:02 running default Action
+2017-04-21 21:58:02 /controller request recived
+2017-04-21 21:58:02 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 21:58:02 request_manager componet has been created successfully
+2017-04-21 21:58:02 Application terminate
+2017-04-21 22:04:44 running Application...
+2017-04-21 22:04:44 ../config/main.cfg included
+2017-04-21 22:04:44 Done!
+2017-04-21 22:04:44 main_controller componet has been created successfully
+2017-04-21 22:04:44 running default Action
+2017-04-21 22:04:44 /controller request recived
+2017-04-21 22:04:44 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 22:04:44 request_manager componet has been created successfully
+2017-04-21 22:04:44 Application terminate
+2017-04-21 22:06:02 running Application...
+2017-04-21 22:06:02 ../config/main.cfg included
+2017-04-21 22:06:02 Done!
+2017-04-21 22:06:02 main_controller componet has been created successfully
+2017-04-21 22:06:02 running default Action
+2017-04-21 22:06:02 /controller request recived
+2017-04-21 22:06:02 request contains: controller - controller; action: ; parametrs: 
+2017-04-21 22:06:02 request_manager componet has been created successfully
+2017-04-21 22:06:02 Application terminate
