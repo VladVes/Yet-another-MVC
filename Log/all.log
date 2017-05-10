@@ -2500,3 +2500,43 @@
 2017-04-23 13:28:33 request_manager componet has been created successfully
 2017-04-23 13:28:33 debug componet has been created successfully
 2017-04-23 13:28:33 Application terminate
+2017-04-25 18:21:37 running Application...
+2017-04-25 18:21:37 ../config/main.cfg included
+2017-04-25 18:21:37 Done!
+2017-04-25 18:21:37 main_controller componet has been created successfully
+2017-04-25 18:21:37 running {$actionMethod}
+2017-04-25 18:21:37 / request recived
+2017-04-25 18:21:37 request contains: controller - default; action: index; parametrs: 
+2017-04-25 18:21:37 request_manager componet has been created successfully
+2017-04-25 18:21:37 debug componet has been created successfully
+2017-04-25 18:21:37 Application terminate
+2017-04-25 18:21:39 running Application...
+2017-04-25 18:21:39 ../config/main.cfg included
+2017-04-25 18:21:39 Done!
+2017-04-25 18:21:39 main_controller componet has been created successfully
+2017-04-25 18:21:39 running {$actionMethod}
+2017-04-25 18:21:39 /favicon.ico request recived
+2017-04-25 18:21:39 request contains: controller - favicon; action: ; parametrs: 
+2017-04-25 18:21:39 request_manager componet has been created successfully
+2017-04-25 18:21:39 debug componet has been created successfully
+2017-04-25 18:21:39 Application terminate
+2017-04-25 15:07:51 running Application...
+2017-04-25 15:07:51 ../config/main.cfg included
+2017-04-25 15:07:51 Done!
+2017-04-25 15:07:51 main_controller componet has been created successfully
+2017-04-25 15:07:52 running {$actionMethod}
+2017-04-25 15:07:52 /pdo request recived
+2017-04-25 15:07:52 request contains: controller - pdo; action: ; parametrs: 
+2017-04-25 15:07:52 request_manager componet has been created successfully
+2017-04-25 15:07:52 debug componet has been created successfully
+2017-04-25 15:07:52 Application terminate
+2017-04-25 15:07:52 running Application...
+2017-04-25 15:07:52 ../config/main.cfg included
+2017-04-25 15:07:52 Done!
+2017-04-25 15:07:52 main_controller componet has been created successfully
+2017-04-25 15:07:52 running {$actionMethod}
+2017-04-25 15:07:52 /favicon.ico request recived
+2017-04-25 15:07:52 request contains: controller - favicon; action: ; parametrs: 
+2017-04-25 15:07:52 request_manager componet has been created successfully
+2017-04-25 15:07:52 debug componet has been created successfully
+2017-04-25 15:07:52 Application terminate
