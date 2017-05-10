@@ -48,7 +48,7 @@ class RequestManager
 			$this->action = ($_REQUEST['action']);
 		}
 	
-		Log::write('request contains: controller - ' . $this->controller . '; action: '  . $this->action . '; parametrs: ' );
+		Log::write('request contains: controller - ' . $this->controller . '; action: '  . $this->action . '; parametrs: {$paramStr}' );
 	}
 
 
