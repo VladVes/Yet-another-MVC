@@ -4,8 +4,8 @@ use \PDO;
 
 class Db
 {
-	private connection;
-	private conParams = [
+	private $connection;
+	private $conParams = [
 		'driver' => '',
 		'host' => '',
 		'database' => '',
@@ -22,6 +22,8 @@ class Db
 		$this->conParams['charset'] = $charset;
 		$this->conParams['login'] = $login;
 		$this->conParams['password'] = $password;
+
+		var_dump($this->conParams);
 	}
 
 	public function getConnection()
@@ -34,7 +36,7 @@ class Db
 				);
 
 		$this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		$this->connection->setAttribute(PDO::DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+		$this->connection->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 		}
 		return $this->connection;
@@ -83,7 +85,7 @@ class Db
 			"%s:host=%s;dbname=%s;charset=%s", 
 			$this->conParams['driver'],
 			$this->conParams['host'],
-			$this->conParams['dbname'],
+			$this->conParams['database'],
 			$this->conParams['charset']
 			);
 	}

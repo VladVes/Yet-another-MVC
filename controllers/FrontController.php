@@ -1,6 +1,7 @@
 <?php
 namespace app\controllers;
 use app\base\Application;
+use app\services\D;
 
 
 class FrontController extends Controller
@@ -9,6 +10,15 @@ class FrontController extends Controller
 	{
 		echo "<br> frontController actionIndex <br>";
 		Application::call()->request_manager;
+
+		
+		//-------------db tests
+		
+		$sql = "SELECT * FROM product WHERE product_price > ?;";
+		$par = ['30'];
+		D::vd(Application::call()->db->fetchAll($sql, $par));
+		
+		//-----------------
 		
 		//-----------------
 		Application::call()->debug->showGlobalArrs();

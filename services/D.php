@@ -1,7 +1,7 @@
 <?php 
 namespace app\services;
 
-class Debugger
+class D
 {
 	public static function vd($var)
 	{
