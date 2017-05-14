@@ -3118,3 +3118,47 @@
 2017-05-11 19:31:25 db componet has been created successfully
 2017-05-11 19:31:26 debug componet has been created successfully
 2017-05-11 19:31:26 Application terminate
+2017-05-12 17:50:07 running Application...
+2017-05-12 17:50:07 ../config/main.cfg included
+2017-05-12 17:50:07 Done!
+2017-05-12 17:50:09 main_controller componet has been created successfully
+2017-05-12 17:50:09 running {$actionMethod}
+2017-05-12 17:50:09 / request recived
+2017-05-12 17:50:09 request contains: controller - default; action: index parametrs: 
+2017-05-12 17:50:09 request_manager componet has been created successfully
+2017-05-12 17:50:09 db componet has been created successfully
+2017-05-12 17:50:12 debug componet has been created successfully
+2017-05-12 17:50:12 Application terminate
+2017-05-12 17:50:19 running Application...
+2017-05-12 17:50:19 ../config/main.cfg included
+2017-05-12 17:50:19 Done!
+2017-05-12 17:50:19 main_controller componet has been created successfully
+2017-05-12 17:50:19 running {$actionMethod}
+2017-05-12 17:50:19 /favicon.ico request recived
+2017-05-12 17:50:19 request contains: controller - favicon; action:  parametrs: 0 = .icocontroller = defaultaction = index
+2017-05-12 17:50:19 request_manager componet has been created successfully
+2017-05-12 17:50:19 db componet has been created successfully
+2017-05-12 17:50:19 debug componet has been created successfully
+2017-05-12 17:50:19 Application terminate
+2017-05-12 18:28:37 running Application...
+2017-05-12 18:28:37 ../config/main.cfg included
+2017-05-12 18:28:37 Done!
+2017-05-12 18:28:37 main_controller componet has been created successfully
+2017-05-12 18:28:37 running {$actionMethod}
+2017-05-12 18:28:37 / request recived
+2017-05-12 18:28:37 request contains: controller - default; action: index parametrs: 
+2017-05-12 18:28:37 request_manager componet has been created successfully
+2017-05-12 18:28:37 db componet has been created successfully
+2017-05-12 18:28:37 debug componet has been created successfully
+2017-05-12 18:28:37 Application terminate
+2017-05-12 18:28:38 running Application...
+2017-05-12 18:28:38 ../config/main.cfg included
+2017-05-12 18:28:38 Done!
+2017-05-12 18:28:38 main_controller componet has been created successfully
+2017-05-12 18:28:38 running {$actionMethod}
+2017-05-12 18:28:38 /favicon.ico request recived
+2017-05-12 18:28:38 request contains: controller - favicon; action:  parametrs: 0 = .icocontroller = defaultaction = index
+2017-05-12 18:28:38 request_manager componet has been created successfully
+2017-05-12 18:28:38 db componet has been created successfully
+2017-05-12 18:28:38 debug componet has been created successfully
+2017-05-12 18:28:38 Application terminate
