@@ -4,6 +4,7 @@ use app\services\Log;
 
 abstract class Controller
 {
+	protected $name;
 	protected $defaultAction = 'index';
 	protected $action;
 	protected $defaultRenderer = 'dr';
@@ -38,10 +39,10 @@ abstract class Controller
 
 	}
 
-	public function render($template, $params = [])
+	public function render($template = '', $params = [])
 	{
-		//$renderer = $this->renderer;
-		app\base\Application::call()->$this->renderer->run($template, $params);
+		$renderer = "renderer[$this->renderer]";
+		app\base\Application::call()->$renderer->run($template, $params);
 
 	}
 
