@@ -1,18 +1,20 @@
 <?php
 
 namespace app\services;
+use app\services\D;
 
 class defaultRenderer 
 {
 	protected $template;
 	protected $layout;
-	const $defaultTemplate = 'default';
-	const $defaultLayout = 'mainLayout';
-	const $dir = 'views';
+	const DEFAULT_TEMPLATE = 'default';
+	const DEFAULT_LAYOUT = 'mainLayout';
+	const TEMPLATE_DIR = 'views';
 
-	public function run($template, $params)
+	public function run($template = '', $params = [])
 	{
-		echo $this->render($defaultLayout, ['content' => $this->render($template, $params)]);
+		$this->layout = self::DEFAULT_LAYOUT;
+		echo $this->render($this->layout, ['content' => $this->render($template, $params)]);
 	}
 
 	protected function render($template, $params)
@@ -20,16 +22,17 @@ class defaultRenderer
 		
 		if ($template !== 'mainLayout') {
 			
-			$this->template = $template ?: $defaultTemplate;
+			$this->template = $template ?: self::DEFAULT_TEMPLATE;
+				
+			$tmpFullName =  lcfirst(str_replace(['app\controllers\\','Controller', 'app\services\\' ], '', get_called_class())) . "/" . ucfirst($this->template) . "Template.php";
 			
-			$tmpFullName =  lcfirst(str_replace(['app\controllers\\','Controller', '\\' ], '', get_called_class())) . "/" . ucfirst($this->template) . "Template.php";
 		} else {
-			$tmpFullName = "layouts/" . ucfirst($this->template) . "Template.php";
+			$tmpFullName = "layouts/" . ucfirst($this->layout) . "Template.php";
+			echo $tmpFullName;
+
 		}
 
-		$path = "../{$this->dir}/{$tmpFullName}";
-
-		
+		$path = "../" . self::TEMPLATE_DIR . "/{$tmpFullName}";
 
 		extract($params);
 		ob_start();

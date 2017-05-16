@@ -22,7 +22,7 @@ abstract class Controller
 		
 		$this->action = $action ?: $this->defaultAction;
 		$action = 'action' . ucfirst($this->action);
-		Log::write("running {$actionMethod}");
+		Log::write("running {$action}");
 
 		$this->beforeAction();
 		$this->$action();
@@ -41,9 +41,8 @@ abstract class Controller
 
 	public function render($template = '', $params = [])
 	{
-		$renderer = "renderer[$this->renderer]";
-		app\base\Application::call()->$renderer->run($template, $params);
-
+		$renderer = $this->renderer;
+		\app\base\Application::call()->$renderer->run($template, $params);
 	}
 
 }

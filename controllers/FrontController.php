@@ -29,9 +29,19 @@ class FrontController extends Controller
 		var_dump(\app\base\Application::call()->request_manager->getParams());
 		//------------------
 
-		$this->name = ucfirst(\app\base\Application::call()->request_manager->getControllerName()) . 'Controller';
+		$this->name = "\app\controllers\\" . ucfirst(\app\base\Application::call()->request_manager->getControllerName()) . 'Controller';
 		
-		echo $this->name;
+		
+		$controller = new $this->name;
+
+		$controller->run();
+
+
+		
+		D::vd($controller);
+
+
+
 
 
 	}
