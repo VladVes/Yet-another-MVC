@@ -2,10 +2,9 @@
 namespace app\models;
 use app\services\Db;
 
-class ProducModel extends Model
+class ProductModel extends Model
 {
-	
-	private $tableName = 'product';
+	protected $tableName = 'product';
 
 	protected function getTableName()
 	{

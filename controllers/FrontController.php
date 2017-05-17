@@ -31,12 +31,10 @@ class FrontController extends Controller
 
 		$this->name = "\app\controllers\\" . ucfirst(\app\base\Application::call()->request_manager->getControllerName()) . 'Controller';
 		
-		
 		$controller = new $this->name;
 
-		$controller->run();
-
-
+		$controller->setParams(\app\base\Application::call()->request_manager->getParams());
+		$controller->run(\app\base\Application::call()->request_manager->getActionName());
 		
 		D::vd($controller);
 

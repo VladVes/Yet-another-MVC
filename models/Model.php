@@ -2,7 +2,7 @@
 namespace app\models;
 use app\services\Db;
 
-class Model
+abstract class Model
 {
 	protected $tableName;
 
@@ -13,7 +13,7 @@ class Model
 		$table = $this->getTableName();
 		$query = "SELECT * FROM $table WHERE id = :id";
 
-		$result = \app\base\Application::call()->Db->fetchOne(['id' => $id]);
+		$result = \app\base\Application::call()->db->fetchOne($query, [':id' => $id]);
 
 		return $result;
 	}
