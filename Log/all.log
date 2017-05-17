@@ -534,3 +534,40 @@
 2017-05-16 16:16:38 request_manager componet has been created successfully
 2017-05-16 16:16:38 db componet has been created successfully
 2017-05-16 16:16:38 debug componet has been created successfully
+2017-05-16 17:18:01 running Application...
+2017-05-16 17:18:01 ../config/main.cfg included
+2017-05-16 17:18:01 Done!
+2017-05-16 17:18:01 app\controllers\FrontController controller and renderer dr
+2017-05-16 17:18:01 main_controller componet has been created successfully
+2017-05-16 17:18:01 running actionIndex
+2017-05-16 17:18:01 /index.php request recived
+2017-05-16 17:18:01 request contains: controller - index; action:  parametrs: 0 = .php
+2017-05-16 17:18:01 request_manager componet has been created successfully
+2017-05-16 17:18:01 db componet has been created successfully
+2017-05-16 17:18:01 debug componet has been created successfully
+2017-05-17 17:57:00 running Application...
+2017-05-17 17:57:00 ../config/main.cfg included
+2017-05-17 17:57:00 Done!
+2017-05-17 17:57:00 app\controllers\FrontController controller and renderer dr
+2017-05-17 17:57:00 main_controller componet has been created successfully
+2017-05-17 17:57:00 running actionIndex
+2017-05-17 17:57:01 / request recived
+2017-05-17 17:57:01 request contains: controller - default; action: index parametrs: 
+2017-05-17 17:57:01 request_manager componet has been created successfully
+2017-05-17 17:57:01 db componet has been created successfully
+2017-05-17 17:57:02 debug componet has been created successfully
+2017-05-17 17:57:02 app\controllers\DefaultController controller and renderer dr
+2017-05-17 17:57:02 running actionIndex
+2017-05-17 17:57:02 dr componet has been created successfully
+2017-05-17 17:57:02 Application terminate
+2017-05-17 17:57:03 running Application...
+2017-05-17 17:57:03 ../config/main.cfg included
+2017-05-17 17:57:03 Done!
+2017-05-17 17:57:03 app\controllers\FrontController controller and renderer dr
+2017-05-17 17:57:03 main_controller componet has been created successfully
+2017-05-17 17:57:03 running actionIndex
+2017-05-17 17:57:03 /favicon.ico request recived
+2017-05-17 17:57:03 request contains: controller - favicon; action:  parametrs: 0 = .icocontroller = defaultaction = index
+2017-05-17 17:57:03 request_manager componet has been created successfully
+2017-05-17 17:57:03 db componet has been created successfully
+2017-05-17 17:57:03 debug componet has been created successfully
