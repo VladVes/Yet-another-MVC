@@ -22,7 +22,8 @@ class ProductController extends Controller
 
 	protected function GetOne($id)
 	{
-		return (new ProductModel())->fetchOneById($id);
+		$model = \app\base\Application::call()->factory->call('ProductModel');
+		return $model->fetchOneById($id);
 	}
 }
 
