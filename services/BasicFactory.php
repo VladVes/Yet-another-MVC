@@ -18,9 +18,7 @@ class BasicFactory
 		$dir = lcfirst($matches[1]) . "s";
 		
 		$fullName = "app\\$dir\\$name";
-
-		echo ('FULL NAME !!!!!!!!!!!!!!!!!!!!!!!!!!!' . $fullName);
-
+		
 		if(class_exists($fullName)) {
 			return new $fullName;
 		}

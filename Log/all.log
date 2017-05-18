@@ -231,3 +231,104 @@
 2017-05-18 19:09:03 request_manager componet has been created successfully
 2017-05-18 19:09:03 db componet has been created successfully
 2017-05-18 19:09:03 debug componet has been created successfully
+2017-05-18 19:16:30 running Application...
+2017-05-18 19:16:30 ../config/main.cfg included
+2017-05-18 19:16:30 Done!
+2017-05-18 19:16:30 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:16:30 main_controller componet has been created successfully
+2017-05-18 19:16:30 running actionIndex
+2017-05-18 19:16:30 /product/showOne/1 request recived
+2017-05-18 19:16:30 request contains: controller - product; action: showOne parametrs: 0 = 1
+2017-05-18 19:16:30 request_manager componet has been created successfully
+2017-05-18 19:16:30 db componet has been created successfully
+2017-05-18 19:16:30 debug componet has been created successfully
+2017-05-18 19:16:30 app\controllers\ProductController controller and renderer dr
+2017-05-18 19:16:30 running actionShowOne
+2017-05-18 19:16:30 factory componet has been created successfully
+2017-05-18 19:16:30 dr componet has been created successfully
+2017-05-18 19:16:30 Application terminate
+2017-05-18 19:16:31 running Application...
+2017-05-18 19:16:31 ../config/main.cfg included
+2017-05-18 19:16:31 Done!
+2017-05-18 19:16:31 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:16:31 main_controller componet has been created successfully
+2017-05-18 19:16:31 running actionIndex
+2017-05-18 19:16:31 /favicon.ico request recived
+2017-05-18 19:16:31 request contains: controller - favicon; action:  parametrs: 0 = .icocontroller = defaultaction = index
+2017-05-18 19:16:31 request_manager componet has been created successfully
+2017-05-18 19:16:31 db componet has been created successfully
+2017-05-18 19:16:31 debug componet has been created successfully
+2017-05-18 19:27:49 running Application...
+2017-05-18 19:27:49 ../config/main.cfg included
+2017-05-18 19:27:49 Done!
+2017-05-18 19:27:49 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:27:49 main_controller componet has been created successfully
+2017-05-18 19:27:49 running actionIndex
+2017-05-18 19:27:49 /product/showOne/1 request recived
+2017-05-18 19:27:49 request contains: controller - product; action: showOne parametrs: 0 = 1
+2017-05-18 19:27:49 request_manager componet has been created successfully
+2017-05-18 19:27:49 db componet has been created successfully
+2017-05-18 19:27:49 app\controllers\ProductController controller and renderer dr
+2017-05-18 19:27:49 running actionShowOne
+2017-05-18 19:27:49 factory componet has been created successfully
+2017-05-18 19:27:49 dr componet has been created successfully
+2017-05-18 19:27:49 Application terminate
+2017-05-18 19:27:50 running Application...
+2017-05-18 19:27:50 ../config/main.cfg included
+2017-05-18 19:27:50 Done!
+2017-05-18 19:27:50 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:27:50 main_controller componet has been created successfully
+2017-05-18 19:27:50 running actionIndex
+2017-05-18 19:27:50 /favicon.ico request recived
+2017-05-18 19:27:50 request contains: controller - favicon; action:  parametrs: 0 = .icocontroller = defaultaction = index
+2017-05-18 19:27:50 request_manager componet has been created successfully
+2017-05-18 19:27:50 db componet has been created successfully
+2017-05-18 19:27:53 running Application...
+2017-05-18 19:27:53 ../config/main.cfg included
+2017-05-18 19:27:53 Done!
+2017-05-18 19:27:53 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:27:53 main_controller componet has been created successfully
+2017-05-18 19:27:53 running actionIndex
+2017-05-18 19:27:53 /product/showOne/1 request recived
+2017-05-18 19:27:53 request contains: controller - product; action: showOne parametrs: 0 = 1
+2017-05-18 19:27:53 request_manager componet has been created successfully
+2017-05-18 19:27:53 db componet has been created successfully
+2017-05-18 19:27:53 app\controllers\ProductController controller and renderer dr
+2017-05-18 19:27:53 running actionShowOne
+2017-05-18 19:27:53 factory componet has been created successfully
+2017-05-18 19:27:53 dr componet has been created successfully
+2017-05-18 19:27:53 Application terminate
+2017-05-18 19:27:53 running Application...
+2017-05-18 19:27:53 ../config/main.cfg included
+2017-05-18 19:27:53 Done!
+2017-05-18 19:27:53 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:27:53 main_controller componet has been created successfully
+2017-05-18 19:27:53 running actionIndex
+2017-05-18 19:27:53 /favicon.ico request recived
+2017-05-18 19:27:53 request contains: controller - favicon; action:  parametrs: 0 = .icocontroller = defaultaction = index
+2017-05-18 19:27:53 request_manager componet has been created successfully
+2017-05-18 19:27:53 db componet has been created successfully
+2017-05-18 19:28:15 running Application...
+2017-05-18 19:28:15 ../config/main.cfg included
+2017-05-18 19:28:15 Done!
+2017-05-18 19:28:15 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:28:15 main_controller componet has been created successfully
+2017-05-18 19:28:15 running actionIndex
+2017-05-18 19:28:15 /product/showOne/1 request recived
+2017-05-18 19:28:15 request contains: controller - product; action: showOne parametrs: 0 = 1
+2017-05-18 19:28:15 request_manager componet has been created successfully
+2017-05-18 19:28:15 app\controllers\ProductController controller and renderer dr
+2017-05-18 19:28:15 running actionShowOne
+2017-05-18 19:28:15 factory componet has been created successfully
+2017-05-18 19:28:15 db componet has been created successfully
+2017-05-18 19:28:15 dr componet has been created successfully
+2017-05-18 19:28:15 Application terminate
+2017-05-18 19:28:15 running Application...
+2017-05-18 19:28:15 ../config/main.cfg included
+2017-05-18 19:28:15 Done!
+2017-05-18 19:28:15 app\controllers\FrontController controller and renderer dr
+2017-05-18 19:28:15 main_controller componet has been created successfully
+2017-05-18 19:28:15 running actionIndex
+2017-05-18 19:28:15 /favicon.ico request recived
+2017-05-18 19:28:15 request contains: controller - favicon; action:  parametrs: 0 = .icocontroller = defaultaction = index
+2017-05-18 19:28:15 request_manager componet has been created successfully

@@ -23,7 +23,7 @@ abstract class Controller
 		
 		$this->action = $action ?: $this->defaultAction;
 		$action = 'action' . ucfirst($this->action);
-		\app\services\D::vd("!!!!!!!!!!!!!!!!!!!!ACTION : " . $action);
+		
 		Log::write("running {$action}");
 
 		$this->beforeAction();

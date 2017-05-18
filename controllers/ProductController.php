@@ -16,11 +16,11 @@ class ProductController extends Controller
 	public function actionShowOne()
 	{	
 		$id = $this->params[0];
-		$product = $this->GetOne($id);
+		$product = $this->getOne($id);
 		$this->render(self::SAMPLE_TEMPLATE, ['welcome' => 'Welcome dear customer!', 'sample' => $product]);
 	}
 
-	protected function GetOne($id)
+	protected function getOne($id)
 	{
 		$model = \app\base\Application::call()->factory->call('ProductModel');
 		return $model->fetchOneById($id);

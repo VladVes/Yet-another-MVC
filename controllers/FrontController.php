@@ -12,7 +12,7 @@ class FrontController extends Controller
 		Application::call()->request_manager;
 
 		
-		//-------------db tests
+		/*/-------------db tests
 		
 		$sql = "SELECT * FROM product WHERE product_price > ?;";
 		$par = ['30'];
@@ -28,6 +28,7 @@ class FrontController extends Controller
 		echo ("Params: ");
 		var_dump(\app\base\Application::call()->request_manager->getParams());
 		//------------------
+		*/
 
 		$this->name = "\app\controllers\\" . ucfirst(\app\base\Application::call()->request_manager->getControllerName()) . 'Controller';
 		
@@ -37,11 +38,6 @@ class FrontController extends Controller
 		$controller->run(\app\base\Application::call()->request_manager->getActionName());
 		
 		D::vd($controller);
-
-
-
-
-
 	}
 }
 
