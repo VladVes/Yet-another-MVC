@@ -60,7 +60,7 @@ class Application
 			return $newComponent;
 
 		} else {
-			Log::write('ERR: can\'t create undefined component "{$name}" check configuration');
+			Log::write("ERR: can\'t create undefined component $name check configuration");
 		}
 	}
 

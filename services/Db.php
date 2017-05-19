@@ -23,7 +23,7 @@ class Db
 		$this->conParams['login'] = $login;
 		$this->conParams['password'] = $password;
 
-		var_dump($this->conParams);
+		//var_dump($this->conParams);
 	}
 
 	public function getConnection()

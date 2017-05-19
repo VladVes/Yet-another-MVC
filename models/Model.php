@@ -1,6 +1,7 @@
 <?php
 namespace app\models;
 use app\services\Db;
+use app\base\Application;
 
 abstract class Model
 {
@@ -14,28 +15,37 @@ abstract class Model
 	{
 		$table = $this->getTableName();
 		$query = "SELECT * FROM $table WHERE id = :id";
+		return $this->forignIdsToNames(Application::call()->db->fetchOne($query, [':id' => $id]));
+	}
 
-		$result = \app\base\Application::call()->db->fetchOne($query, [':id' => $id]);
-
+	public function fetchAll()
+	{
+		$table = $this->getTableName();
+		$query = "SELECT * FROM $table";
+		$result = [];
+		foreach (Application::call()->db->fetchAll($query) as $val) {
+			$result[] = $this->forignIdsToNames($val);
+		}
 		return $result;
 	}
 
-	public function forignIdToName($row)
+	protected function forignIdsToNames($row)
 	{
-		$result = [];
-
+		//$namedRow = [];
 		foreach($row as $key => $val) {
 			foreach ($this->forignKeys as $fkey => $fval) {
+
 				if($key === $fkey)	{
-					$query = "SELECT $fval[] FROM $val WHERE id = :id";
+					$table = implode('', array_keys($fval));
+					$column = implode('', array_values($fval));
+					$query = "SELECT $column FROM $table WHERE id = :id";				
+					$row[$key] = Application::call()->db->fetchOne($query, ['id' => $val])[$column];
 				}
 			}
 		}
+		//return array_merge($row, $namedRow);
+		return $row;
 
-		$query = "SELECT $key FROM $val WHERE id = :id";
-		$model = \app\base\Application::call()->factory->call()
-		fetchOne($query, [':id' => $id])[0];
-		}
 	}
 }
 

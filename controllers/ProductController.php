@@ -8,6 +8,8 @@ class ProductController extends Controller
 	const DEFAULT_TEMPLATE = 'productDefault';
 	const SAMPLE_TEMPLATE = 'productSample';
 
+	
+
 	public function actionIndex()
 	{
 		$this->render(self::DEFAULT_TEMPLATE, ['welcome' => 'Welcome to the products page.']);
@@ -20,10 +22,22 @@ class ProductController extends Controller
 		$this->render(self::SAMPLE_TEMPLATE, ['welcome' => 'Welcome dear customer!', 'sample' => $product]);
 	}
 
+	public function actionShowAll()
+	{
+		\app\services\D::vd($this->getAll());
+	}
+
+
 	protected function getOne($id)
 	{
 		$model = \app\base\Application::call()->factory->call('ProductModel');
 		return $model->fetchOneById($id);
+	}
+
+	protected function getAll()
+	{
+		$model = \app\base\Application::call()->factory->call('ProductModel');
+		return $model->fetchAll();
 	}
 }
 
