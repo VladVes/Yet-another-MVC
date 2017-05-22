@@ -14,6 +14,13 @@ class defaultRenderer
 	public function run($template = '', $params = [])
 	{
 		$this->layout = self::DEFAULT_LAYOUT;
+		$content = '';
+		foreach ($params as $key => $val) {
+			if (is_array($val)) {
+				$content = $this->render('', ['row' => $val])
+			}
+		}
+
 		echo $this->render($this->layout, ['content' => $this->render($template, $params)]);
 	}
 
