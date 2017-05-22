@@ -1,0 +1,10 @@
+<tr>
+	<td><?=$sample['id']?></td>
+	<td><?=$sample['product_brand']?></td>
+	<td><?=$sample['product_type']?></td>
+	<td><?=$sample['product_quantity']?></td>
+	<td><?=$sample['product_price']?></td>
+	<td><?=$sample['product_discount']?></td>
+	<td><?=$sample['product_category']?></td>
+	<td><?=$sample['product_description']?></td>
+</tr>

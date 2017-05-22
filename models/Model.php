@@ -18,6 +18,11 @@ abstract class Model
 		return $this->forignIdsToNames(Application::call()->db->fetchOne($query, [':id' => $id]));
 	}
 
+	public function __get($prop)
+	{
+		return isset($this->$prop) ? $this->$prop : null;		
+	}
+
 	public function fetchAll()
 	{
 		$table = $this->getTableName();

@@ -14,6 +14,15 @@ class ProductModel extends Model
 			['category' => 'category_name']
 		];
 
+	protected $id;
+	protected $product_brand;
+	protected $product_type;
+	protected $product_price;
+	protected $product_quantity;
+	protected $product_discount;
+	protected $product_category;
+	protected $product_desctiption;
+
 	protected function getTableName()
 	{
 		return $this->tableName;

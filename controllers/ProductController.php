@@ -7,6 +7,7 @@ class ProductController extends Controller
 {
 	const DEFAULT_TEMPLATE = 'productDefault';
 	const SAMPLE_TEMPLATE = 'productSample';
+	const SHOW_ALL_TEMPLATE = 'productShowAll';
 
 	
 
@@ -24,7 +25,12 @@ class ProductController extends Controller
 
 	public function actionShowAll()
 	{
+		
 		\app\services\D::vd($this->getAll());
+		$products = $this->getAll();
+		
+		$this->render(self::SHOW_ALL_TEMPLATE, ['welcome' => 'Welcome dear customer!', 'sample' => $product]);
+
 	}
 
 
