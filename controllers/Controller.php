@@ -19,7 +19,7 @@ abstract class Controller
 
 	public function run($action = null)
 	{
-		echo "<br> controller running controller!";
+		//echo "<br> controller running controller!";
 		
 		$this->action = $action ?: $this->defaultAction;
 		$action = 'action' . ucfirst($this->action);

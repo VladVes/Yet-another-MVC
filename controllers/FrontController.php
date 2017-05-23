@@ -8,7 +8,7 @@ class FrontController extends Controller
 {
 	public function actionIndex()
 	{
-		echo "<br> frontController actionIndex <br>";
+		//echo "<br> frontController actionIndex <br>";
 		Application::call()->request_manager;
 
 		
@@ -37,7 +37,7 @@ class FrontController extends Controller
 		$controller->setParams(\app\base\Application::call()->request_manager->getParams());
 		$controller->run(\app\base\Application::call()->request_manager->getActionName());
 		
-		D::vd($controller);
+		//D::vd($controller);
 	}
 }
 

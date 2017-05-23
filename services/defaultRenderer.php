@@ -14,29 +14,44 @@ class defaultRenderer
 	public function run($template = '', $params = [])
 	{
 		$this->layout = self::DEFAULT_LAYOUT;
-		$content = '';
+		
+		$subContent = '';
+		$content = [];
+		$subTemplate = '';
+	
 		foreach ($params as $key => $val) {
 			if (is_array($val)) {
-				$content = $this->render('', ['row' => $val])
+				$subTemplate = $template . "Template" . "_" . ucfirst($key) . ".php";
+				$NotSubArray = true;
+
+				foreach ($val as $valkey => $arr) {
+					if (is_array($arr)) {
+						$NotSubArray = false;
+						$subContent .= $this->render($subTemplate, ['sample' => $arr]);
+					}
+				} 
+				if ($NotSubArray) {
+					$subContent .= $this->render($subTemplate, ['sample' => $val]);
+				}
+
+			} else {
+				$content[$key] = $val;
 			}
 		}
+		$content['subContent'] = $subContent;
+		$template .= "Template.php";
 
-		echo $this->render($this->layout, ['content' => $this->render($template, $params)]);
+		echo $this->render($this->layout, ['content' => $this->render($template, $content)]);
 	}
 
 	protected function render($template, $params)
 	{
 		
 		if ($template !== 'mainLayout') {
-			
 			$this->template = $template ?: self::DEFAULT_TEMPLATE;
-				
-			$tmpFullName =  lcfirst(str_replace(['app\controllers\\','Controller', 'app\services\\' ], '', get_called_class())) . "/" . ucfirst($this->template) . "Template.php";
-			
+			$tmpFullName =  lcfirst(str_replace(['app\controllers\\','Controller', 'app\services\\' ], '', get_called_class())) . "/" . ucfirst($template);	
 		} else {
 			$tmpFullName = "layouts/" . ucfirst($this->layout) . "Template.php";
-			echo $tmpFullName;
-
 		}
 
 		$path = "../" . self::TEMPLATE_DIR . "/{$tmpFullName}";

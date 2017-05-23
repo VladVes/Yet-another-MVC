@@ -13,7 +13,7 @@
 				<td>CATRGORY</td>
 				<td>DESCRIPTION</td>
 			</tr>
-			<?=$rowTpl?>
+			<?=$subContent ?>
 		</table>
 
 		

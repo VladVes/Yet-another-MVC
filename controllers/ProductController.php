@@ -6,33 +6,23 @@ use app\models\ProductModel;
 class ProductController extends Controller
 {
 	const DEFAULT_TEMPLATE = 'productDefault';
-	const SAMPLE_TEMPLATE = 'productSample';
-	const SHOW_ALL_TEMPLATE = 'productShowAll';
-
+	const BASE_TEMPLATE = 'product';
+	//const BASE_TEMPLATE_ALL = 'productAll';
 	
-
 	public function actionIndex()
 	{
 		$this->render(self::DEFAULT_TEMPLATE, ['welcome' => 'Welcome to the products page.']);
 	}
 
-	public function actionShowOne()
+	public function actionShow()
 	{	
-		$id = $this->params[0];
-		$product = $this->getOne($id);
-		$this->render(self::SAMPLE_TEMPLATE, ['welcome' => 'Welcome dear customer!', 'sample' => $product]);
-	}
-
-	public function actionShowAll()
-	{
+		if (!empty($this->params[0])) {
+			$id = $this->params[0];
+			$product = $this->getOne($id);
+		} else $product = $this->getAll();
 		
-		\app\services\D::vd($this->getAll());
-		$products = $this->getAll();
-		
-		$this->render(self::SHOW_ALL_TEMPLATE, ['welcome' => 'Welcome dear customer!', 'sample' => $product]);
-
+		$this->render(self::BASE_TEMPLATE, ['welcome' => 'Welcome dear customer!', 'sample' => $product]);
 	}
-
 
 	protected function getOne($id)
 	{

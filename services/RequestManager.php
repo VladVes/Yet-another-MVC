@@ -39,7 +39,7 @@ class RequestManager
 			$this->action = $matches['action'][0];
 			$this->params = array_merge(explode("/", $matches['params'][0]), $_REQUEST);
 			
-			
+			$paramStr = '';
 			foreach ($this->params as $param => $val) {
 				$paramStr .= $param . " = " . $val;
 			}
@@ -49,7 +49,7 @@ class RequestManager
 			$this->action = ($_REQUEST['action']);
 		}
 	
-		Log::write("request contains: controller - " . $this->controller . "; action: "  . $this->action . " parametrs: {$paramStr}");
+		Log::write("request contains: controller - " . $this->controller . "; action: "  . $this->action . " parametrs: $paramStr");
 	}
 
 

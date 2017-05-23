@@ -20,10 +20,9 @@ class Application
 	public function run()
 	{
 
-		echo "running Application...";
+		//echo "running Application...";
 		
 		$this->autoload();
-
 		$this->storage = new \app\services\Container();
 
 		Log::write("running Application...");
