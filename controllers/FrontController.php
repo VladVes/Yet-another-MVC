@@ -39,6 +39,16 @@ class FrontController extends Controller
 		
 		//D::vd($controller);
 	}
+	protected function checkUser() {
+		if ($this->controllerName != 'auth') {
+			$user = Application::call()->user->gerCurrent();
+			if(!$user) {
+				$this->redirect('auth');
+			}
+		}
+
+	}
+
 }
 
 
