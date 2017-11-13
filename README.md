@@ -1,2 +1,3 @@
-<h3>Simple PHP MVC implementation</h3>
-<h3>Vladimir Veselov</h3>
+```
+###This is a simple MVC implementation without using any frameworks.
+```
