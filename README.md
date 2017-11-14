@@ -1,1 +1,1 @@
-### This is a basic MVC implementation without using any frameworks.
+### This is a basic MVC implementation.
