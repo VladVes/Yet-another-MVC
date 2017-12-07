@@ -15,8 +15,9 @@ class UserRep
 	public function getByLoginPass($login, $pass)
 	{
 		return $this->conn->fetchObject(
-			sprintf(
-				"SELECT u.* FROM user u WHERE login = '%s' AND password = '%s'", $login, md5($pass)), [], $this->nestedClass
+			sprintf("SELECT u.* FROM user u WHERE login = '%s' AND password = '%s'", $login, md5($pass)),
+			[],
+			$this->nestedClass
 			);
 	}
 
