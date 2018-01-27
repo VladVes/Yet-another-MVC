@@ -1,1 +1,1 @@
-### This is a basic MVC implementation.
+### This is an example of MVC implementation.
